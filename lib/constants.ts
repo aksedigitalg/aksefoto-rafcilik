@@ -56,7 +56,7 @@ export const BUSINESS = {
   },
 
   // ----- SEO & Site -----
-  siteUrl: process.env.NEXT_PUBLIC_SITE_URL || "https://aksefotografcilik.com",
+  siteUrl: process.env.NEXT_PUBLIC_SITE_URL || "https://aksefotograf.com",
   defaultLocale: "tr-TR",
   defaultOgImage: "/og/default.jpg",
 

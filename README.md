@@ -126,12 +126,12 @@ Bu dosyayı düzenlemek tüm site genelinde otomatik güncelleme sağlar:
 `.env.local`:
 
 ```bash
-NEXT_PUBLIC_SITE_URL=https://aksefotografcilik.com
+NEXT_PUBLIC_SITE_URL=https://aksefotograf.com
 
 # Resend (iletişim formu)
 RESEND_API_KEY=re_xxxx
 CONTACT_EMAIL_TO=info@aksedigital.com
-CONTACT_EMAIL_FROM=site@aksefotografcilik.com
+CONTACT_EMAIL_FROM=site@aksefotograf.com
 
 # Analytics (opsiyonel)
 NEXT_PUBLIC_GA_ID=G-XXXXXXXXXX
@@ -183,7 +183,7 @@ NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION=...
 
 ### Deployment Sonrası
 
-1. ✅ Domain bağla (`aksefotografcilik.com`)
+1. ✅ Domain bağla (`aksefotograf.com`)
 2. ✅ Vercel'e deploy
 3. ✅ Google Search Console'a ekle, sitemap submit et (`/sitemap.xml`)
 4. ✅ Bing Webmaster Tools'a ekle
@@ -230,7 +230,7 @@ Lighthouse hedefler (Mobile + Desktop):
 - CLS < 0.05
 - INP < 200ms
 
-Kontrol için: `https://pagespeed.web.dev/?url=https://aksefotografcilik.com`
+Kontrol için: `https://pagespeed.web.dev/?url=https://aksefotograf.com`
 
 ## 📝 Güncel Kapsam Notları
 
