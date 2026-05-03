@@ -1,0 +1,144 @@
+@import "tailwindcss";
+@plugin "tailwindcss-animate";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  /* DM Sans (Google Sans alternatifi) hem govde hem baslik icin */
+  --font-sans:
+    var(--font-sans), "Google Sans", "Product Sans", system-ui, -apple-system, sans-serif;
+  --font-display:
+    var(--font-sans), "Google Sans", "Product Sans", system-ui, -apple-system, sans-serif;
+
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+}
+
+:root {
+  --background: oklch(1 0 0);
+  --foreground: oklch(0.145 0 0);
+
+  --muted: oklch(0.97 0.005 60);
+  --muted-foreground: oklch(0.45 0.01 60);
+
+  --card: oklch(1 0 0);
+  --card-foreground: oklch(0.145 0 0);
+
+  --border: oklch(0.92 0.005 60);
+  --input: oklch(0.92 0.005 60);
+  --ring: oklch(0.62 0.08 60);
+
+  /* Primary: gul kurusu / saten / sicak nude */
+  --primary: oklch(0.62 0.08 60);
+  --primary-foreground: oklch(1 0 0);
+
+  --secondary: oklch(0.97 0.005 60);
+  --secondary-foreground: oklch(0.145 0 0);
+
+  --accent: oklch(0.95 0.02 70);
+  --accent-foreground: oklch(0.145 0 0);
+
+  --destructive: oklch(0.55 0.2 25);
+  --destructive-foreground: oklch(1 0 0);
+
+  --radius: 0.5rem;
+}
+
+.dark {
+  --background: oklch(0.145 0 0);
+  --foreground: oklch(0.98 0 0);
+  --muted: oklch(0.2 0.005 60);
+  --muted-foreground: oklch(0.65 0.01 60);
+  --card: oklch(0.18 0 0);
+  --card-foreground: oklch(0.98 0 0);
+  --border: oklch(0.27 0.005 60);
+  --input: oklch(0.27 0.005 60);
+  --ring: oklch(0.7 0.08 60);
+  --primary: oklch(0.72 0.08 60);
+  --primary-foreground: oklch(0.145 0 0);
+  --secondary: oklch(0.2 0.005 60);
+  --secondary-foreground: oklch(0.98 0 0);
+  --accent: oklch(0.25 0.02 70);
+  --accent-foreground: oklch(0.98 0 0);
+  --destructive: oklch(0.4 0.18 25);
+  --destructive-foreground: oklch(0.98 0 0);
+}
+
+* {
+  border-color: var(--border);
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+  font-feature-settings: "rlig" 1, "calt" 1;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-display);
+  letter-spacing: -0.025em;
+  font-weight: 700;
+}
+
+/* Erisim: focus halkasi */
+:focus-visible {
+  outline: 2px solid var(--ring);
+  outline-offset: 2px;
+}
+
+/* Hareket azaltma tercihi */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Container yardimcisi */
+.container-prose {
+  max-width: 65ch;
+  margin-inline: auto;
+}
+
+/* Print stilleri */
+@media print {
+  .no-print {
+    display: none !important;
+  }
+}
