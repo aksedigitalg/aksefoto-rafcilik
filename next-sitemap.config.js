@@ -1,6 +1,6 @@
 /** @type {import('next-sitemap').IConfig} */
 module.exports = {
-  siteUrl: process.env.NEXT_PUBLIC_SITE_URL || "https://aksefotograf.com",
+  siteUrl: process.env.NEXT_PUBLIC_SITE_URL || "https://aksefotografcilik.com",
   generateRobotsTxt: false,
   generateIndexSitemap: true,
   changefreq: "weekly",
@@ -16,7 +16,7 @@ module.exports = {
       },
     ],
     additionalSitemaps: [
-      `${process.env.NEXT_PUBLIC_SITE_URL || "https://aksefotograf.com"}/sitemap.xml`,
+      `${process.env.NEXT_PUBLIC_SITE_URL || "https://aksefotografcilik.com"}/sitemap.xml`,
     ],
   },
   transform: async (config, path) => {
