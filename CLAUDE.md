@@ -289,8 +289,14 @@ Get-NetTCPConnection -LocalPort 3001 | ForEach-Object { Stop-Process -Id $_.Owni
 - [ ] **`.env.local`** üretim değerleri: RESEND_API_KEY, GA_ID, CLARITY_ID
 
 ### Orta Öncelik (İçerik Genişletme)
-- [ ] Hizmet sayfalarının `longDescription` alanını 1500+ kelimeye çıkarma
-      (öncelik: dugun-fotografcisi, biyometrik-fotograf-cekimi, urun-fotograf-cekimi)
+- [x] **Hizmet sayfa içerik genişletme — Adım 5 başladı (2026-05-05):**
+  - [x] `dugun-fotografcisi` (1620 kelime, 11 H2/H3)
+  - [x] `biyometrik-fotograf-cekimi` (1526 kelime, 10 H2/H3)
+  - [x] `yenidogan-cekimi` (1506 kelime, 15 H2/H3)
+  - [ ] Sıradaki yüksek öncelikli: `urun-fotograf-cekimi`, `vesikalik-fotograf-cekimi`,
+        `bebek-fotografcisi`, `kurumsal-fotograf-cekimi`, `nikah-fotografcisi`,
+        `nisan-fotografcisi`, `aile-fotografcisi`, `hamile-fotograf-cekimi`
+  - [ ] Toplam 71 hizmet (68 kalan) — kullanıcı talebi geldikçe parça parça yapılacak
 - [ ] Mahalle açıklamalarını 400+ kelimeye genişletme
       (öncelik: Eskihisar, Bayramoğlu, Şekerpınar, Güzeller)
 - [ ] Blog yazısı sayısını 8'den 50'ye çıkarma (aylık 4-8 yeni yazı)
@@ -304,21 +310,76 @@ Get-NetTCPConnection -LocalPort 3001 | ForEach-Object { Stop-Process -Id $_.Owni
 
 ## Tipik Görev Kalıpları (Bir Sonraki Claude Oturumu için)
 
-### Kullanıcı: "Düğün hizmet sayfasının içeriğini detaylandır"
+### Kullanıcı: "Hizmet sayfasının içeriğini detaylandır" (1500+ kelime SEO)
+
+**Genişletilmiş referans hizmetler (Adım 5 başlangıcı, 2026-05-05):**
+- ✅ `dugun-fotografcisi` — 1620 kelime, 11 H2/H3
+- ✅ `biyometrik-fotograf-cekimi` — 1526 kelime, 10 H2/H3
+- ✅ `yenidogan-cekimi` — 1506 kelime, 15 H2/H3
+
+Bu üç hizmet aynı yapı şablonunu kullandı; yeni hizmet genişletirken aynı yapıyı izle:
 
 ```
-1. lib/data/services/dugun-toren.ts dosyasını aç
-2. slug "dugun-fotografcisi" entry'sini bul
-3. longDescription alanını 1500+ kelimeye genişlet
-4. Doğal Türkçe SEO copywriting kuralları:
-   - Ana anahtar kelime ilk paragrafta + H1'de + meta'da
-   - LSI varyasyonlar serpilmiş (kelime doldurma DEĞİL)
-   - Yerel referanslar (Bayramoğlu sahili, Eskihisar, vs.)
-   - 4-6 H2/H3 alt başlık
-   - Sayısal veri (10+ yıl, 1000+ çift, vb.)
-   - Aktif çatı, samimi ama profesyonel ton
-5. faqs alanına 8+ SSS olduğundan emin ol
-6. npm run build → tip hatası yoksa OK
+[Lead paragraf (~150 kelime, problemi/durumu lokal odaklı tanıt)]
+
+## H2 başlık 1: Yaklaşım/felsefe (~250-300 kelime)
+
+## H2 başlık 2: Süreç/akış (~400-600 kelime)
+### H3 alt başlık 1
+### H3 alt başlık 2
+### H3 alt başlık 3
+
+## H2 başlık 3: Lokasyon/mekan (gerçek Gebze referansları, ~250 kelime)
+
+## H2 başlık 4: Ekipman/teknik (gerçek marka model, ~200 kelime)
+
+## H2 başlık 5: Teslim/çıktı (albüm türleri, süreler, ~200-250 kelime)
+
+## H2 başlık 6: Fiyatlandırma yaklaşımı (şeffaf, ~150 kelime)
+
+## H2 başlık 7: Ne zaman/nasıl iletişim (~200 kelime)
+```
+
+**Render: H2/H3 markdown desteği var** — `app/hizmetler/[hizmet]/page.tsx`:
+- `## Başlık` satırı → `<h2>` render edilir
+- `### Alt başlık` satırı → `<h3>`
+- Diğer paragraflar → `<p>`
+- Boş satır iki kere ile blok ayrımı (`\n\n`)
+
+**Google 2026 EEAT/Helpful Content kuralları (KRITIK, Mart 2026 Core Update sonrası):**
+- **Experience signals**: Spesifik ekipman markaları (Sony A7 IV, Sigma 35mm 1.4, DJI Mavic 3),
+  gerçek lokal mekan adları (Bayramoğlu sahili, Eskihisar feneri, GOSB, Diliskelesi),
+  spesifik teknik detay (1/250 shutter, ICAO 9303, sıcaklık 26-28°C),
+  spesifik süreler ve fiyat aralıkları (₺18.000-25.000)
+- **Expertise**: Süreç şeffaflığı, "yaygın hatalar/ret sebepleri" gibi pratik bilgi
+- **Trust**: Yazılı sözleşme, sigorta, sürpriz fatura yok ifadeleri, KVKK uyumu
+- **AVOID**:
+  - Sahte istatistikler ("10+ yıl deneyim" → BUSINESS.stats.yearsOfExperience: 1)
+  - Boş övgü ("kaliteli, profesyonel, mutlu müşteriler")
+  - Her paragrafta CTA tekrarı
+  - Keyword stuffing (anahtar kelimeyi her cümleye sıkıştırma)
+  - AI pattern'leri (her cümle aynı yapıyla başlar, "Bizim için..." tekrarı)
+  - Düğüm noktası emojiler ✅, ❌, → vb. (içerik metninde, AI imzası)
+
+**Her hizmetin angle'ı farklı olmalı (scaled content abuse cezasına karşı):**
+- Düğün: belgeselci yaklaşım + saat saat akış + lokasyon haritası
+- Biyometrik: ICAO standartları + ülke şablonları + ret sebepleri
+- Yenidoğan: altın pencere + güvenlik composite + hijyen standartları
+- Ürün: e-ticaret platformu standartları + lighting setup + retouch
+- Mahalle/lokasyon hizmetleri: o mahallenin spesifik kültür/coğrafyası
+
+Şablonu kopyala-yapıştırla 71 hizmet yapma — Google "scaled content" olarak işaretler. Her hizmetin kendi unique value angle'ı olmalı.
+
+**Workflow:**
+```
+1. lib/data/services/{kategori}.ts dosyasını aç
+2. slug entry'sini bul
+3. longDescription alanını yukarıdaki şablona göre 1500+ kelimeye genişlet
+4. node ile kelime sayımı doğrula:
+   const text = ...
+   text.split(/\\s+/).filter(Boolean).length
+5. faqs alanı 6-8 SSS (longDescription'dan bağımsız tut)
+6. npm run typecheck → npm run build → curl canlı test
 ```
 
 ### Kullanıcı: "X mahallesinin açıklamasını uzat"

@@ -8,13 +8,91 @@ export const belgeServices: Service[] = [
     primaryKeyword: "biyometrik fotoğraf çekimi",
     secondaryKeywords: ["Gebze biyometrik fotoğraf", "biyometrik vesikalık", "ICAO standart biyometrik", "anında biyometrik baskı"],
     shortDescription: "Pasaport, vize ve resmi belgeler için ICAO standartlarına uygun, anında baskılı biyometrik fotoğraf.",
-    longDescription: `Biyometrik fotoğraf, pasaport, vize, ehliyet, kimlik gibi resmi belgelerde kullanılan, uluslararası ICAO standartlarına uygun çekilmiş özel bir fotoğraf türüdür. Akse Fotoğrafçılık olarak Gebze Güzeller'deki stüdyomuzda anında biyometrik fotoğraf hizmeti sunuyoruz.
+    longDescription: `Biyometrik fotoğraf; pasaport, vize, ehliyet, T.C. kimlik kartı gibi resmi belgelerde kullanılan, uluslararası ICAO (Uluslararası Sivil Havacılık Örgütü) standartlarına uygun çekilmiş bir fotoğraf türüdür. Sıradan bir vesikalıktan farkı, yüz tanıma sistemleri tarafından "okunabilir" olmasıdır: yüz hatları belirli bir orana göre yerleştirilir, ışık dağılımı tek tarafa düşmez, ifade nötrdür. Bu yüzden büyükelçilik, konsolosluk ve pasaport ofislerinin biyometrik kuralları çok katıdır; küçük bir hata bile başvurunuzun reddine sebep olabilir.
 
-Biyometrik fotoğrafın belirli kuralları vardır: arka plan açık beyaz/krem, yüzün tam ön cepheden, gözler net açık, gülmeden ve dudaklar kapalı, saç yüzü kapatmamalı, gözlük varsa parlamamalı, başörtüsü varsa yüz hatlarını kapatmamalı. Bu kurallara uymayan fotoğraflar ülkelerin konsolosluk/pasaport ofisleri tarafından reddedilir.
+Akse Fotoğrafçılık olarak Gebze Güzeller Mahallesi'ndeki stüdyomuzda anında biyometrik fotoğraf çekimi hizmeti sunuyoruz. Çekim, baskı ve dijital teslim toplam on-on beş dakikada tamamlanır; randevuya gerek yok, yürüyüş mesafesinde gelmeniz yeterli. Aşağıda bu hizmetin ayrıntılarını, ülkeye göre değişen şablonları ve sıkça sorulan teknik detayları olabildiğince açık şekilde anlattık.
 
-Stüdyomuzda biyometrik standartlara göre kalibreli ışık kurulumu, doğru yükseklikte tripod ve özel arka plan bulunmaktadır. Çekim 5-10 dakika sürer; baskı 5 dakikada hazır. ICAO/Schengen/ABD/UK standartları için ayrı şablonlar mevcuttur. Bebek/çocuk biyometrik çekimleri için sabırlı yaklaşım sergiliyoruz.
+## ICAO biyometrik fotoğraf standartları
 
-Tüm belge fotoğraf türleri (vesikalık, biyometrik, pasaport, vize, ehliyet, kimlik) tek stüdyoda; randevuya gerek yok, yürüyüş mesafesinde gelin.`,
+Uluslararası Sivil Havacılık Örgütü'nün belirlediği ICAO 9303 standardı, dünya çapındaki pasaport ve seyahat belgelerinin biyometrik fotoğraf kurallarını tanımlar. Türkiye dahil çoğu ülke bu standardı temel alır, küçük yerel farklarla uygular.
+
+Standart başlıca şu kuralları içerir: arka plan açık ve tek renk olmalı (beyaz, krem veya çok açık gri); göz ve kulaklar net görünmeli, saç bunları kapatmamalı; ifade nötr ve dudaklar kapalı olmalı, gülümseme reddedilir; baş tam karşıya bakmalı, hafif yan açı dahi kabul edilmez; ışık yüze eşit dağılmalı, tek taraftan gölge kabul edilmez; gözlük varsa cam temiz ve yansımasız olmalı, kalın çerçeve gözleri kapatmamalı (Türkiye pasaportu için gözlük genelde ret sebebi); başörtüsü dini sebeple kabul edilir ama alın, kulaklar ve çene hattı net görünmelidir.
+
+Yüz alanı toplam fotoğraf alanının yüzde yetmiş ile yüzde seksen aralığında olmalı. Bu, yüzün ne çok yakın ne de çok uzak olmasını gerektirir. Stüdyomuzdaki tripod, kamera ve arka plan tüm bu oranlar için kalibre edilmiştir; siz sadece doğru yere oturuyorsunuz, gerisini biz ölçüyoruz.
+
+## Stüdyomuzda biyometrik çekim süreci
+
+Çekim öncesi size kısa bir bilgi veriyoruz: hangi belge için fotoğraf gerekiyor (Türkiye pasaport, Schengen vize, ABD vize, vs.), gözlük takıyor musunuz, başörtülü çekim mi olacak. Bu bilgi gerekli çünkü her belge için ayrı şablon kullanıyoruz.
+
+### Işık kurulumu
+
+Biyometrik çekimde ışık en kritik element. Stüdyomuzda iki softbox kullanıyoruz: ana ışık önden yukarıdan kırk beş derece açı, dolgu ışık karşı taraftan yumuşak. Bu kurulum yüzde gölge oluşturmaz, ten tonu doğal görünür. Pasaport ofisleri "tek taraflı gölge" sebebiyle çok başvuru reddeder; biz bu hatayı yapmıyoruz.
+
+Arka planımız özel olarak biyometrik çekim için üretilmiş açık gri kağıttır; saf beyaz değil, çünkü saf beyaz arka plan ışığı yansıtıp yüzde overexposure oluşturabiliyor. Açık gri kağıt yumuşak, doğal bir doku verir.
+
+### Çekim ve sonrası
+
+Tripoda sabitlenmiş kameramızı yüksekliğinizi göre ayarlıyoruz; oturmuş bir yetişkin için yaklaşık 1.20 metre yükseklik standart. Sırtınız dik, omuzlar düz, başınız tam karşıya. "Gözlerinizi normalde olduğu gibi açık tutun, dudakları kapatın, hafif rahatlayın" — bu kadar.
+
+Çekim üç-beş kare alıyoruz; aralarından en uygun ifadeli olanı seçiyor, dijital olarak ICAO şablonuna kırpıp, gerekirse arka plan rengini hafif kalibre ediyoruz. Baskıya gönderiyoruz; profesyonel inkjet baskı makinesinden beş dakika içinde elinizde olur. Dijital JPG'yi de aynı anda mail veya WhatsApp ile iletiyoruz — pasaport sisteminin online randevu sayfasına yüklemeniz için.
+
+## Hangi belge için hangi şablon?
+
+Her ülke ve belge türü farklı bir biyometrik şablonu kullanır. Stüdyomuzda en çok talep gören şablonlar:
+
+Türkiye e-Pasaportu için 5x6 cm boyut, açık gri arka plan, yüz alanı yüzde yetmiş beş. Yeni biyometrik T.C. kimlik kartı için aynı boyut ve standart. Schengen vize başvurusu için 3.5x4.5 cm boyut, beyaz arka plan, yüz alanı yüzde yetmiş; Avrupa Birliği üye ülkelerinin tamamı bu standardı kullanır. ABD B1/B2 vizesi için 5x5 cm kare boyut, beyaz arka plan, yüz alanı yüzde elli-altmış (daha uzak çekim).
+
+Birleşik Krallık vizesi için 35x45 mm boyut, açık gri arka plan; ABD'den biraz daha sıkı kurallı. Çin vizesi için kırmızısı tamamen yasak (kırmızı arka plan başvuruyu otomatik reddeder, çünkü Çin kırmızısı resmi simgedir), 33x48 mm boyut. Japonya, Hindistan, Rusya gibi ülkelerin de kendi spesifik standartları var; başvurunuzu söyleyin, doğru şablonu kullanalım.
+
+Schengen ülkeleri arasında bile küçük farklar vardır (örneğin Almanya konsolosluğu yüksekliği biraz daha sıkı kontrol eder, Hollanda biraz daha esnek). Tecrübemize göre standart Schengen şablonuyla çekilen fotoğraflar tüm üye ülkelerde geçer.
+
+## Bebek ve çocuk biyometrik fotoğrafı
+
+Bebek pasaport fotoğrafı çekiminin biyometrik standartları aynıdır: gözler açık, ifade nötr, yüz tam karşıya. Ama bunu yedi günlük bir bebekten yaptırmak başlı başına bir sanat.
+
+Stüdyomuzda bebek/çocuk için özel yaklaşım: bebek beş aylıktan küçükse anne kucağında çekiyoruz; anneye göğsüne yakın bir mesafede beyaz örtü tutturuyor, bebeği örtünün üzerinde sırtüstü yatırıyoruz. Bebeğin uyanık ama sakin bir ânını yakalıyoruz; gözlerini açtığı saniyede shutter çekiyoruz. Genelde üç-beş deneme yetiyor.
+
+Beş ay-iki yaş arası çocuklar için özel beyaz duvar önünde stand-up çekim. Eğer çocuk oturamıyorsa anne yardımıyla; anne arka planda görünmez (beyaz örtü içinde) çocuğu sabitler. Birkaç oyuncak ve ses çıkaran obje ile çocuğun yüzünü kameraya çevirmesini sağlıyoruz; gülmesinden değil, dikkatini çekmesinden.
+
+İki yaş üzeri çocuklar genelde rahat çekim verir, sadece "şimdi resmini çekeceğiz, gözlerini açık tut, gülme tamam mı" demek yeterli. Sabırlı olmak en önemli kural; bebeğe asla zorlama uygulamıyoruz, gerekirse seansı durdurup beş dakika sonra tekrar deniyoruz.
+
+## Reddedilen başvuruların yaygın sebepleri
+
+Stüdyomuza "fotoğrafım reddedildi, yenisi gerekiyor" şikayetiyle gelen müşterilerimizin başvuru ret sebeplerini biriktirdik. En sık görülenler:
+
+Yetersiz aydınlatma ve gölge — yüzün bir tarafında belirgin gölge varsa ICAO sistemi bunu "asimetrik aydınlatma" olarak okur ve reddeder. Stüdyo dışında basit bir cep telefonuyla çekilen fotoğraflar genelde bu sebepten reddedilir.
+
+Saç yüzü kapatması — alın, kulak veya çene hattı saç tarafından kapatılırsa ret. Uzun saçlı kişilerin çekim öncesi saçlarını arkaya toplaması gerekir; biz çekim öncesi bunu hatırlatıyoruz. Gözlük yansıması — cam üzerindeki yansıma gözleri tam göstermezse ret. Türkiye pasaportu için gözlüksüz çekim yapıyoruz; vize başvuruları için gözlük takanlardan camını çıkarıp temizletiyor, açıyı ayarlıyoruz.
+
+İfade ve duruş hataları — geniş gülümseme, dudakların aşırı sıkıca kapalı olması, başın hafif yan dönmesi, omuzun düşük olması — bunlar da ret sebepleridir. Çekim sırasında "tam karşıya bakın, dudaklar nötr, omuzlar düz" hatırlatmasını yapıyoruz.
+
+Arka plan rengi/dokusu — duvar deseni, gölgeli arka plan, yansımalı yüzeyler ret sebebi. Stüdyomuzda profesyonel kağıt arka plan kullandığımız için bu hataya hiç düşmüyoruz.
+
+## Anında baskı ve dijital dosya teslim akışı
+
+Çekim sonrası iki çıktı veriyoruz: fiziksel baskı ve dijital JPG. Baskıyı profesyonel inkjet fotoğraf yazıcısından alıyoruz; mat veya parlak yüzey seçeneği var. Standart pakette dört adet baskı, klasik pakette sekiz adet. Aile pakediyle gelirseniz dört kişi için on altı adet baskı (kişi başı dört) toplu indirimle.
+
+Dijital JPG dosyasını e-pasaport randevu sistemine, Schengen vize başvurusuna veya başka online platforma yüklemek için doğru boyutta ve dosya boyutunda hazırlıyoruz. Standart Türkiye e-Pasaport sistemi 600x800 piksel, JPG, 50 KB-300 KB arası dosya boyutu ister; biz tam bu standarda uygun versiyon hazırlıyoruz, mail veya WhatsApp ile gönderiyoruz.
+
+Eğer ileride aynı fotoğrafa tekrar ihtiyaç duyarsanız (mesela ehliyet için baskı, vize için ek dosya), bir yıl boyunca arşivimizde saklı duruyor; arayıp "geçen ay biyometrik çektim, dört adet daha basabilir misiniz" derseniz randevu/çekim olmadan tekrar baskı yapıyoruz.
+
+## Gözlük ve başörtüsü çekimi için pratik notlar
+
+Stüdyomuza gelen müşterilerin yaklaşık üçte biri ya gözlük takıyor ya da başörtülü. Bu iki durum biyometrik standartlarda ek dikkat gerektiriyor; önemli detayları paylaşayım.
+
+Türkiye e-Pasaport için günümüzde gözlüklü çekim kabul edilmiyor; pasaport ofisi yüz tanıma sistemi gözlerin tam görünür olmasını istiyor. Eğer gözlüksüz dışarı çıkmak sizin için zorsa, çekim öncesi gözlüğü çıkarıp birkaç dakika gözlerinizin alıştırma süresini bekliyoruz; sonra çekim yapıyoruz, çıktıktan sonra gözlüğünüzü tekrar takarsınız. ABD ve Schengen vize başvurularında gözlük genellikle kabul ediliyor; ama cam tamamen temiz, parlamasız, kalın çerçeve gözleri kapatmayan ve yüzü daraltmayan tarzda olmalı. Stüdyomuzda gözlüğünüzün açısını ışığa göre ayarlıyor, yansıma riskini sıfırlıyoruz; gerekirse gözlüğü hafif aşağı kaydırıyor, sonra dijital olarak orijinal pozisyonuna düzeltiyoruz.
+
+Başörtüsü için temel kural: alın, kulaklar (en azından yüz hattı boyunca) ve çene hattı net görünmeli. Yüzü tamamen kapatan veya alın hattını gizleyen bir bağlama tarzı reddedilebiliyor. Çekim öncesi başörtüsünü hafif geriye atarak alın hattını açmanızı rica ediyoruz. Renk olarak koyu ton (siyah, lacivert, koyu kahve) tercih edilir çünkü açık gri arka planda yüz hatlarınızı daha net ortaya koyar. Çok desenli, parlak veya yansıyan kumaşlar (saten gibi) görüntü kalitesini düşürebilir; mat, sade kumaşlar ideal. Kapalı çekimde başörtüsü altından saç görünmemeli; bu detayı çekim öncesi kontrol ediyor, gerekirse müşteriye aynayla gösteriyoruz.
+
+## Stüdyomuza ulaşım ve randevu
+
+Stüdyomuz Gebze Güzeller Mahallesi 927. Sokak No:6-B'de. Gebze otobüs terminaline beş dakika, Eskihisar feribot iskelesine on beş dakika mesafede. Toplu taşımayla geliyorsanız Gebze metrosu ve Marmaray'dan inip taksi/otobüsle ulaşabilirsiniz; özel araçla geliyorsanız stüdyo önünde yan sokakta ücretsiz park yeri var.
+
+Biyometrik çekim için randevu gerekmez; çalışma saatlerimiz içinde (Pazartesi-Cumartesi 09:00-20:00, Pazar 10:00-18:00) doğrudan gelebilirsiniz. Yoğun saatlerde (öğle arası 12:30-13:30, hafta sonu 14:00-17:00) on-on beş dakika beklemeniz gerekebilir; sabah erken veya akşamüstü saatlerinde genellikle bekleme yok.
+
+Eğer aile olarak dört kişi geliyorsanız ve hepiniz farklı ülke vizeleri için çekileceksiniz, telefonla arayıp uygun saati öğrenebilirsiniz; aile çekimini ardışık değil paralel yapıyoruz, bu da toplam süreyi yarıya indiriyor. Acil bir durum varsa (yarın pasaport randevusu, bugün konsolosluk teslimi) öncelik veriyoruz; durumu söyleyin, sıraya başka müşteri varsa onların onayıyla öne alıyoruz.
+
+Kurumsal toplu çekim de mümkün: şirket personeli için kimlik kartı fotoğrafları, AVM mağaza personeli için yaka kartı çekimi, fabrika işe giriş fotoğrafları gibi durumlarda yirmi-elli kişilik ekipleri stüdyomuzda peş peşe çekiyoruz. Bu durumda telefonla önceden gün ve saat planlanır; toplu indirim tarifesi uygulanır ve her personelin dijital kopyaları aynı gün e-posta ile İK departmanına teslim edilir. Gebze sanayi bölgesi (GOSB), TOSB, Bilişim Vadisi gibi OSB'lerden sıkça gelen taleplerden biri bu hizmettir; isterseniz onların İK ekipleriyle çalışma referansımızı paylaşabiliriz.`,
     features: ["ICAO + Schengen + ABD/UK standartları", "Anında baskı (5 dk)", "Profesyonel kalibreli ışık", "Bebek/çocuk için sabırlı çekim", "Dijital + baskı teslim", "Randevu gerekmez"],
     packages: [
       { name: "Sade", priceRange: "₺150 - ₺250", description: "4 adet baskı", includes: ["4 adet 5x6 cm baskı", "Dijital JPG", "ICAO standart"] },

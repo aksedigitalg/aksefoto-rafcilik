@@ -15,11 +15,103 @@ export const bebekAileServices: Service[] = [
     ],
     shortDescription:
       "Bebeğinizin doğumdan sonraki ilk günlerini, en uykulu ve en kıvrımlı halini sanat eserine dönüştürüyoruz.",
-    longDescription: `Yenidoğan çekimi, bebeğin doğumdan sonraki ilk 5-15 gün içinde yapılan, hayatın en kısa sürelerinden birini ölümsüzleştiren özel bir hizmettir. Bu dönemde bebek hala anne karnındaki kıvrım pozlarını alabiliyor, derin uykuya dalıyor ve özel pozlar mümkün oluyor. Akse Fotoğrafçılık olarak yenidoğan çekimini stüdyomuzda, sterilize edilmiş aksesuarlarla, ısıtılmış ortamda gerçekleştiriyoruz.
+    longDescription: `Yenidoğan çekimi, bebeğin doğumdan sonraki ilk on beş gün içinde yapılan, hayatın en kısa sürelerinden birini ölümsüzleştiren özel bir hizmettir. Bu dönemde bebek hala anne karnındaki kıvrım pozlarını alabiliyor, derin uykuya dalıyor ve "newborn" diye adlandırılan o ikonik pozlar mümkün oluyor. On beş günü geçince bebek tetikte oluyor, kıvrımlı pozları zorlanıyor, klasik yenidoğan kareleri yerine bebek fotoğrafçılığı dönemine geçiliyor.
 
-Stüdyomuzda yenidoğan için sıcaklık 26-28°C'ye ayarlanır, beyaz gürültü cihazı ile bebeğin uyku konforu sağlanır. Çekim 2-3 saat sürer; bu süre boyunca anne emzirme/altını değiştirme molaları verilir. Bebeği zorlamadan, doğal pozlarla, profesyonel sepet/kutu/battaniye aksesuarlarıyla farklı kompozisyonlar alıyoruz.
+Akse Fotoğrafçılık olarak Gebze Güzeller Mahallesi'ndeki stüdyomuzda yenidoğan çekimini ısıtılmış ortamda, sterilize edilmiş aksesuarlarla, sabırlı bir tempoda gerçekleştiriyoruz. Aşağıda bu hizmetin neyi kapsadığını, güvenlik prensiplerimizi, tipik bir seansın akışını ve ailelerin sıkça merak ettikleri detayları olabildiğince açık şekilde anlattık.
 
-Bebeğin güvenliği önceliklidir; "kolu üstüne dayalı poz" gibi riskli composite pozlar için iki ayrı kare çekip sonra Photoshop'ta birleştiriyoruz — gerçekte bebek hiçbir zaman tehlikeli pozisyonda olmuyor. Edit teslim süremiz 14-21 gündür; sosyal medya için 5 kareyi 7 gün içinde iletiyoruz.`,
+## Yenidoğan çekiminin altın penceresi: 5-15 gün
+
+Profesyonel yenidoğan fotoğrafçılığında "altın pencere" olarak adlandırılan dönem doğumdan sonraki beş ile on beş gündür. Bu zaman aralığında bebek henüz ana rahmindeki kıvrımlı pozisyonlarına yatkın, uzun süreli derin uyku dönemleri var ve refleksleri henüz tam aktif değil. Beş günden önce çekim genelde önerilmez çünkü anne hala doğum yorgunluğunu atıyor, bebek beslenme rutinine alışıyor ve cilt tonunda fizyolojik sarılık olabilir.
+
+On beş günü geçtiğinde bebek artık çevresinin farkında olmaya başlar, daha sık uyanır, kıvrımlı pozları zorlanır. Yedi-otuz gün arasındaki bebekler için "yenidoğan tarzı" çekim hala mümkün ama daha esnek pozlarla, kucakta tutmalı kompozisyonlarla yapıyoruz. Otuz günden sonra bebek fotoğrafçılığı kategorisine geçiyoruz.
+
+Bu kısa pencere yüzünden tahmini doğum tarihinden bir-iki ay önce ön rezervasyon almanız önerilir. Stüdyomuza tahmini doğum haftasını söyler, "doğumdan beş-on gün sonra" şartıyla rezervasyon hakkını ayırırız. Bebek doğunca aramanız yeterli, kesin tarihi netleştiririz. Yaz aylarında ve yılbaşı dönemlerinde rezervasyonlar erken doluyor; geç başvuran ailelere "çocuk uygun pozda olmayabilir" uyarısı veriyoruz.
+
+## Stüdyomuzdaki güvenlik ve hijyen standartları
+
+Yenidoğan bebek bağışıklığı henüz tam gelişmemiş ve cilt hassasiyeti maksimum seviyededir. Bu yüzden yenidoğan stüdyosu sıradan bir çekim alanından çok daha sıkı hijyen kurallarına uymalıdır.
+
+### Sıcaklık ve nem kontrolü
+
+Stüdyomuzun yenidoğan çekim alanında sıcaklığı 26-28°C arasında tutuyoruz; bebeğin termoregülasyonu yetişkin gibi gelişmediği için bu aralık kritik. Çekim sırasında çevre sıcaklığını sürekli ölçüyor, gerekirse seyyar ısıtıcı ile destekliyoruz. Nem oranı ise yüzde elli civarında; çok kuru hava bebeğin nazal pasajlarını rahatsız eder, çok nemli ortam ise mikroorganizma üremesine zemin hazırlar.
+
+### Aksesuar ve örtü hijyeni
+
+Sepet, battaniye, şapka, çorap, kostüm — yenidoğan çekiminde kullandığımız tüm aksesuarlar her seans öncesi yıkanıp dezenfekte edilir. Yumuşak organik pamuk kumaşları yüksek sıcaklıkta yıkıyor, yün şapkalar gibi yıkanamayan parçaları UV-C lamba ile sterilize ediyoruz. Çekim alanına geliriz, üzerimizde temiz forma, ellerimiz bebek temasından önce daima yıkanmış ve dezenfekte halde.
+
+### Beyaz gürültü ve sakinleştirici ortam
+
+Bebeklerin ana rahminde duydukları "vızıltı" hatırlatıcı bir beyaz gürültü cihazı çekim sırasında çalışıyor. Bu, bebeğin daha derin uyku alabilmesini sağlıyor; bazı bebekler bu sayede iki saat boyunca aralıksız uyuyor, harika kareler çıkarıyoruz. Çekim alanında müzik, telefon sesi, yüksek konuşma yok; sadece beyaz gürültü ve gerektiğinde fısıltıyla iletişim.
+
+### Annenin konforu
+
+Anne yorgun, doğum izi taze, emzirme ritmi yeni oturmuş. Stüdyoda anneye özel köşe ayrılmış: emzirme için sessiz bir alan, su, atıştırmalık, yumuşak koltuk. Anneyi çekimin teknik kısımlarından koparıyor, sadece bebeğin yanında olmasını ve karelere doğal duygu katmasını istiyoruz.
+
+## Çekim akışı: İki-üç saatlik bir seans
+
+Bir yenidoğan seansı iki ile üç saat sürer. Bu süreyi acele ettirmiyoruz; bebeğin doğal ritmi neyse ona uyuyoruz.
+
+### Geliş ve hazırlık
+
+Aile geldiğinde bebeği çıkarmadan önce on dakika beklemenizi rica ediyoruz: bebek yeni ortama alışsın, sıcaklık dengesi otursun. Bu sırada anneyle hızlı bir görüşme yapıyoruz: bebeğin uyku ve emzirme rutini ne, hangi pozlara açık olduğu konusunda fikriniz var mı, anne ve baba ile birlikte kareler istiyor musunuz, kardeşi var mı (varsa kaç yaşında).
+
+### Bebeği uyutma
+
+Bebeğin tok ve uykulu olması seansın temelidir. Aile gelmeden hemen önce evde emzirilmesini ve geldiğinde son bir mama/emzirme molası verilmesini istiyoruz; bu sayede bebek tok karnına derin uyuyor. Beyaz gürültü cihazı, sıcaklık, sakin ortam — bebek genelde on beş-yirmi dakikada uykuya dalıyor.
+
+### Pozlar ve aksesuarlar
+
+Klasik yenidoğan pozları sırayla: torba pozu (bebek battaniyeye sarılı), sepet pozu (uyumakta), kıvrımlı yan poz, sırtüstü açık pozisyon, baba kollarında kapalı kompozisyon. Aksesuarlar her seans değişiyor: sezona, ailenin tercihine, bebeğin cinsiyetine göre.
+
+Aksesuarları organik kumaş ve yumuşak yün ağırlıklı seçiyoruz; sentetik veya kaba dokulu hiçbir şey bebeğin teninde temas etmiyor. Sepetlerin içine yumuşak kuzu yünü serili, pürüzsüz koruyucu örtü yapılmış. Bebeğin başı sarkmıyor, vücudu hep destekli — pozisyonu her ne olursa olsun.
+
+### Anne, baba, kardeş kareleri
+
+Yenidoğan çekiminin çekirdek kısmı bebek pozlarıdır ama paketinizin kapsamına göre on beş-otuz dakikalık aile portresi seansı da var. Anne ile bebek el ele kareleri, baba kucağında bebek, anne-baba-bebek üçlüsü — bu kareler aile albümünün kalbi.
+
+Eğer büyük kardeş varsa (özellikle iki-beş yaş arası), kardeş seansını seansın başında, çocuk daha enerjikken yapıyoruz. Çocuk yorulduğunda çıkar, gerisi anne ve bebek olarak devam eder. Beş yaş üstü kardeşler genelde sabırlı kalır, seans sonuna kadar kalmak isteyebilirler.
+
+## Composite pozlar: Güvenlik için iki kare birleştirme
+
+Yenidoğan fotoğrafçılığında sosyal medyada gördüğünüz "bebek başını avucuna dayamış" veya "asılı sepet pozu" gibi efektler aslında "composite" tekniğiyle yapılır. Yani bebek hiçbir zaman gerçekte o tehlikeli pozisyonda değildir; iki ayrı kare çekilir ve Photoshop'ta birleştirilir.
+
+Örneğin "başını avucuna dayamış" pozda: ilk kare bebeği yastık üstünde uygun pozisyonda, ikinci kare aynı açıdan boş eli yine aynı yerde — sonra ikisi photoshop'ta birleştirilir, sanki bebek elini destek olarak kullanmış gibi görünür. Aslında o anda bebeğin başı her zaman yastık tarafından destekleniyordu.
+
+Bu teknik dünya genelindeki tüm profesyonel yenidoğan fotoğrafçılarının uyguladığı standart bir güvenlik prosedürüdür. Composite olmadan o riskli pozları çekmek bebek için tehlikelidir; vücudu henüz omurga ve boyun kasları gelişmemiş bir yenidoğanı zorla pozisyona sokmak ciddi yaralanmaya sebep olabilir.
+
+Stüdyomuzda asla bebeği zorla pozisyona koymuyoruz. Eğer bebek bir pozda rahat değilse o pozdan vazgeçiyor, başka kompozisyona geçiyoruz. Tüm composite işlemleri çekim sonrası edit aşamasında yapılıyor; aileye fotoğraf teslim edildiğinde sonuç doğal görünüyor ama bebek hiçbir zaman tehlikede değil.
+
+## Aksesuar ve set-up: Bebeğin teninde rahat olan malzemeler
+
+Aksesuar seçimimizde bebeğin cilt sağlığı her zaman önde. Sentetik kumaşlar (polyester, akrilik) bebeğin nazik cildinde tahriş yapabilir; biz organik pamuk, yumuşak yün ve doğal keten ağırlıklı çalışıyoruz.
+
+Şapka, çorap, fiyonk gibi minik aksesuarları el yapımı küçük atölyelerden temin ediyoruz; ucuz toptan ürünlerin içinde bebek cildiyle temas eden tehlikeli kimyasallar olabilir. Saç bantları, çiçek aksesuarları, küçük taç gibi eşyaları her seans öncesi sterilize ediyoruz.
+
+Sepetler, kutular, battaniye katmanları — hepsi farklı stillerde ve renklerde mevcut. Klasik kremsi/beyaz tonlar, pastel pembe ve mavi, modern toprak tonları (terra cotta, sage green, mustard), sezona uygun (kış için yün/krem, yaz için ince pamuk) seçeneklerimiz var. Aileyle çekim öncesi konsept tercihinizi konuşuyor, ona göre aksesuar setini hazırlıyoruz.
+
+Tüm aksesuarlarımız stüdyoda; aileye "aksesuar getirin" diye yük çıkarmıyoruz. Sadece eğer aile özel anlamlı bir aksesuar getirmek isterse (anneanne tarafından örülmüş bir battaniye gibi) bunu çekim öncesi yıkayıp temizletmenizi rica ediyoruz.
+
+## Edit ve teslim süreci
+
+Çekim sonrası ham fotoğraflarımız ortalama 200-400 kareden oluşur; bunların arasından en başarılı 30-80 tanesini (paketinize göre) seçip edit aşamasına alıyoruz. Edit dediğimiz: ten tonu kalibrasyonu (yenidoğan cildi genelde kırmızı/sarı dengesiz başlar, doğal görünüme getiriyoruz), arka plan temizliği, composite işlemler (gerekiyorsa), kontrast ve keskinlik dengeleme.
+
+Sosyal medya için beş kareyi yedi gün içinde WhatsApp'tan iletiyoruz; bu sayede aile bebeğin doğum duyurusu paylaşımları için beklemiyor. Tam edit teslim süremiz on dört-yirmi bir gün; bu süre içinde hiçbir kare aceleye getirilmiyor, her birine tek tek dokunuyoruz.
+
+Premium pakette 20x20 cm 20 sayfalık mini albüm dahil; tasarımı dijital olarak gönderiyor, bir-iki revizyon kabul ediyoruz, sonra baskıya gönderiyoruz. Albüm baskı süresi on dört-yirmi bir gün ek; toplamda dört-altı haftada elinizde olur.
+
+Online galeri ile tüm fotoğraflar parolalı bir albüme yükleniyor; aile büyükleri, akrabalar bağlantı üzerinden erişip yüksek çözünürlükte indirebilir. Galeri bir yıl boyunca aktif kalır.
+
+## Doğum öncesi rezervasyon ve hazırlık
+
+Yenidoğan çekiminin altın penceresi sadece on gün olduğu için ön rezervasyon kritik. Tahmini doğum tarihinden bir-iki ay önce bizi arayıp tarih bloku ayırtmanızı öneriyoruz. Bu blok bir hafta süreli, "doğum gerçekleştikten beş-on gün sonra" şartıyla.
+
+Bebek doğunca bizi arayın; o anda kesin tarihi netleştirir, çekim gününü belirleriz. Erken doğum, sezaryen iyileşme süresi, bebeğin sarılık durumu gibi faktörlere göre tarihi esnetebiliyoruz. Sezaryen anneler genelde ilk hafta hareket etmekte zorlanır; aile yardımıyla geliyorsanız annenin konforunu öne alıyoruz.
+
+Çekim öncesi aileye gönderdiğimiz hazırlık listesi var: gelmeden iki saat önce bebeği emzirin, üzerinde sıkı bir kıyafet yerine kolayca çıkarılır bir tulum olsun, anne için rahat kıyafet (eteğin altı koyu renk olsun, çekimde çıkabilir), eğer büyük kardeş gelecekse onun için yedek kıyafet ve atıştırmalık. Yola çıkmadan bebeğin altını değiştirin; stüdyoda da değiştirme alanımız var ama yolun başında temizlik daha pratik.
+
+Stüdyomuza Gebze ve civarındaki ailelerin ulaşımı kolay; özel araçla geliyorsanız stüdyo önünde park yeri var, toplu taşımayla geliyorsanız Gebze otobüs terminaline yakın merkezi konumdayız. Eğer hareket etmekte zorlanan bir aile durumu varsa (sezaryen iyileşme, ev tipi tercih), eve giderek çekim de yapabiliyoruz; bu durum için ek ulaşım ücreti var ve evdeki sıcaklık/aydınlatma şartlarının uygunluğunu önceden konuşmamız gerekiyor.
+
+Bazı aileler ikiz veya üçüz bebek için çekim talep ediyor; bu durumlarda seans süresi üç-dört saate uzayabilir ve iki ayrı setup hazırlıyoruz. İkiz pozları için kardeşleri yan yana, sarmaş dolaş veya simetrik yatırılmış kompozisyonlar deneyimliyoruz. Erken doğan (prematüre) bebekler için ise hekim onayı bekliyoruz; bebeğin doktorundan "fotoğraf seansına uygun" yazılı onay olmadan prematüre çekim almıyoruz. Bu, ailenin bilmediği ama önemli bir profesyonel sınır. Tahmini doğum tarihinizden bağımsız, bebek doğunca pediatristinizden seans onayı almak için iletişime geçmenizi rica ediyoruz.`,
     features: [
       "Stüdyoda 26-28°C ısıtılmış ortam",
       "Sterilize aksesuarlar",
