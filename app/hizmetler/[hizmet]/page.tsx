@@ -112,12 +112,35 @@ export default async function ServicePage({ params }: { params: Promise<{ hizmet
 
         {/* Detaylı açıklama */}
         <section className="mb-16">
-          <div className="prose prose-stone mx-auto max-w-3xl">
-            {service.longDescription.split("\n\n").map((para, i) => (
-              <p key={i} className="mb-4 leading-relaxed text-foreground/90">
-                {para}
-              </p>
-            ))}
+          <div className="mx-auto max-w-3xl">
+            {service.longDescription.split("\n\n").map((block, i) => {
+              const trimmed = block.trim();
+              if (trimmed.startsWith("### ")) {
+                return (
+                  <h3
+                    key={i}
+                    className="mt-8 mb-3 font-display text-xl font-semibold leading-snug md:text-2xl"
+                  >
+                    {trimmed.slice(4)}
+                  </h3>
+                );
+              }
+              if (trimmed.startsWith("## ")) {
+                return (
+                  <h2
+                    key={i}
+                    className="mt-12 mb-4 font-display text-2xl font-semibold leading-snug md:text-3xl"
+                  >
+                    {trimmed.slice(3)}
+                  </h2>
+                );
+              }
+              return (
+                <p key={i} className="mb-5 leading-relaxed text-foreground/90 md:text-[17px]">
+                  {trimmed}
+                </p>
+              );
+            })}
           </div>
         </section>
 
