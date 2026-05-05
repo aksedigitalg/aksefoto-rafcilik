@@ -98,7 +98,7 @@ Bebeğin güvenliği önceliklidir; "kolu üstüne dayalı poz" gibi riskli comp
     galleryCategory: "bebek",
     metaTitle: "Gebze Yenidoğan Fotoğraf Çekimi | 5-15 Günlük Bebek Çekimi",
     metaDescription:
-      "Gebze yenidoğan fotoğrafçısı. Stüdyoda ısıtılmış ortam, steril aksesuar, güvenli composite pozlar. Anne-bebek-aile kareleri. 0533 241 75 22",
+      "Gebze yenidoğan fotoğrafçısı. Stüdyoda ısıtılmış ortam, steril aksesuar, güvenli composite pozlar. Anne-bebek-aile kareleri. 0539 633 03 58",
   },
 
   {
@@ -199,7 +199,7 @@ Tema çekimleri (denizci, prenses, paşa, melek) için stüdyomuzda kostüm setl
     galleryCategory: "bebek",
     metaTitle: "Gebze Bebek Fotoğrafçısı | Stüdyo Bebek Çekimi",
     metaDescription:
-      "Gebze bebek fotoğrafçısı. 1-12 aylık bebekler için tema çekimi, aile pozları, güvenli aksesuar. Hızlı teslim. 0533 241 75 22",
+      "Gebze bebek fotoğrafçısı. 1-12 aylık bebekler için tema çekimi, aile pozları, güvenli aksesuar. Hızlı teslim. 0539 633 03 58",
   },
 
   {
@@ -300,7 +300,7 @@ Yıl sonunda 12 ayın en başarılı kareleri ile 30 sayfalık 'Birinci Yılım'
     galleryCategory: "bebek",
     metaTitle: "Gebze Aylık Bebek Çekimi | 12 Aylık Büyüme Hikayesi Albümü",
     metaDescription:
-      "Gebze aylık bebek çekimi paketi. 12 ay tutarlı çekim, pasta patlatma finalı, 30 sayfalık yıl sonu albüm. Aile pozları dahil. 0533 241 75 22",
+      "Gebze aylık bebek çekimi paketi. 12 ay tutarlı çekim, pasta patlatma finalı, 30 sayfalık yıl sonu albüm. Aile pozları dahil. 0539 633 03 58",
   },
 
   {
@@ -410,7 +410,7 @@ Edit teslim süremiz 10 gündür. Sosyal medya için 5 kareyi 3 gün içinde ile
     galleryCategory: "bebek",
     metaTitle: "Gebze 1 Yaş Pasta Patlatma | Cake Smash Çekimi",
     metaDescription:
-      "Gebze 1 yaş pasta patlatma çekimi. Tema pasta, balon dekor, splash banyo, aile pozları. Stüdyoda 3 aşamalı seans. 0533 241 75 22",
+      "Gebze 1 yaş pasta patlatma çekimi. Tema pasta, balon dekor, splash banyo, aile pozları. Stüdyoda 3 aşamalı seans. 0539 633 03 58",
   },
 
   {
@@ -519,7 +519,7 @@ Edit teslim süremiz 10 gündür. Bu çekim ile yenidoğan stüdyo çekimini bir
     galleryCategory: "dogum",
     metaTitle: "Gebze Doğum Fotoğrafçısı | Hastane Doğum Anı ve Fresh 48",
     metaDescription:
-      "Gebze doğum fotoğrafçısı. Fresh 48 hastane çekimi, doğum anı (etik onayla), eve dönüş kapsamı. Mahremiyet öncelikli. 0533 241 75 22",
+      "Gebze doğum fotoğrafçısı. Fresh 48 hastane çekimi, doğum anı (etik onayla), eve dönüş kapsamı. Mahremiyet öncelikli. 0539 633 03 58",
   },
 
   {
@@ -621,7 +621,7 @@ Edit teslim süremiz 10-14 gündür. Hamile + yenidoğan + aylık bebek paketini
     galleryCategory: "hamile",
     metaTitle: "Gebze Hamile Fotoğraf Çekimi | Maternity Çekim",
     metaDescription:
-      "Gebze hamile fotoğrafçısı. Stüdyo + Bayramoğlu/Eskihisar dış çekim. Tüllü kostümler, eş ve büyük kardeş kareleri. 0533 241 75 22",
+      "Gebze hamile fotoğrafçısı. Stüdyo + Bayramoğlu/Eskihisar dış çekim. Tüllü kostümler, eş ve büyük kardeş kareleri. 0539 633 03 58",
   },
 
   {
@@ -724,7 +724,7 @@ Edit teslim süremiz 10 gündür. Aylık paket isteyen ailelere yıl içinde 4 m
     galleryCategory: "cocuk",
     metaTitle: "Gebze Çocuk Fotoğraf Çekimi | Stüdyo ve Dış Çekim",
     metaDescription:
-      "Gebze çocuk fotoğrafçısı. 1-12 yaş için sabırlı ve eğlenceli çekim. Tema kostüm, kardeş pozları, mevsim paketi. 0533 241 75 22",
+      "Gebze çocuk fotoğrafçısı. 1-12 yaş için sabırlı ve eğlenceli çekim. Tema kostüm, kardeş pozları, mevsim paketi. 0539 633 03 58",
   },
 
   {
@@ -826,7 +826,7 @@ Yıllık aile çekimi geleneği oluşturmak isteyenler için 'Yıllık Aile' pak
     galleryCategory: "aile",
     metaTitle: "Gebze Aile Fotoğrafçısı | Geniş Aile ve Kuşak Çekimi",
     metaDescription:
-      "Gebze aile fotoğrafçısı. Çekirdek + geniş aile çekimi, kıyafet danışmanlığı, yıllık aile paketi. Stüdyo veya dış çekim. 0533 241 75 22",
+      "Gebze aile fotoğrafçısı. Çekirdek + geniş aile çekimi, kıyafet danışmanlığı, yıllık aile paketi. Stüdyo veya dış çekim. 0539 633 03 58",
   },
 
   {
@@ -934,7 +934,7 @@ Edit teslim süremiz 7 gündür; sosyal medya için 5-10 kareyi 24 saat içinde 
     galleryCategory: "etkinlik",
     metaTitle: "Gebze Doğum Günü Fotoğrafçısı | Çocuk ve Yetişkin Parti Çekimi",
     metaDescription:
-      "Gebze doğum günü fotoğrafçısı. Çocuk + yetişkin parti, tema dekor, mum üfleme + hediye + dans. 7 günde teslim. 0533 241 75 22",
+      "Gebze doğum günü fotoğrafçısı. Çocuk + yetişkin parti, tema dekor, mum üfleme + hediye + dans. 7 günde teslim. 0539 633 03 58",
   },
 
   {
@@ -1036,6 +1036,6 @@ Edit teslim süremiz 7-10 gündür. Pet'iniz için yıllık çekim isterseniz 'P
     galleryCategory: "pet",
     metaTitle: "Gebze Pet Fotoğrafçısı | Köpek ve Kedi Çekimi",
     metaDescription:
-      "Gebze evcil hayvan fotoğrafçısı. Kedi + köpek + kuş portreleri, sahibi ile etkileşim kareleri, stüdyo + dış çekim. Sabırlı yaklaşım. 0533 241 75 22",
+      "Gebze evcil hayvan fotoğrafçısı. Kedi + köpek + kuş portreleri, sahibi ile etkileşim kareleri, stüdyo + dış çekim. Sabırlı yaklaşım. 0539 633 03 58",
   },
 ];

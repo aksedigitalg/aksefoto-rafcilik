@@ -129,7 +129,7 @@ Profesyonel düğün albümleri için kristal kapaklı, italyan kumaş kapaklı 
     galleryCategory: "dugun",
     metaTitle: "Gebze Düğün Fotoğrafçısı | Hikaye Anlatan Düğün Çekimi",
     metaDescription:
-      "Gebze, Darıca, Çayırova, Dilovası düğün fotoğrafçısı. Belgeselci yaklaşım, drone, sinematik klip, 14 günde edit teslim. Hemen ara: 0533 241 75 22",
+      "Gebze, Darıca, Çayırova, Dilovası düğün fotoğrafçısı. Belgeselci yaklaşım, drone, sinematik klip, 14 günde edit teslim. Hemen ara: 0539 633 03 58",
   },
 
   {
@@ -233,7 +233,7 @@ Standart düğün klibi süremiz 5 dakika; Premium pakette 10 dakikalık genişl
     galleryCategory: "video",
     metaTitle: "Gebze Düğün Hikayesi | Sinematik Düğün Klibi Çekimi",
     metaDescription:
-      "Gebze sinematik düğün klibi. 4K kamera, gimbal, drone, kablosuz mikrofon. 5-10 dk düğün hikayesi + sosyal medya teaser. Lisanslı müzik. 0533 241 75 22",
+      "Gebze sinematik düğün klibi. 4K kamera, gimbal, drone, kablosuz mikrofon. 5-10 dk düğün hikayesi + sosyal medya teaser. Lisanslı müzik. 0539 633 03 58",
   },
 
   {
@@ -330,7 +330,7 @@ Teslim süresi 4 haftadır. Klip MP4 formatında, USB veya dijital indirme linki
     galleryCategory: "video",
     metaTitle: "Gebze Düğün Klibi | Klasik Düğün Videosu Çekimi",
     metaDescription:
-      "Gebze düğün klibi çekimi. Salon ve tam gün paketler, 4K seçeneği, yaka mikrofonu, 60 sn teaser hediye. Hızlı teslim. Bilgi: 0533 241 75 22",
+      "Gebze düğün klibi çekimi. Salon ve tam gün paketler, 4K seçeneği, yaka mikrofonu, 60 sn teaser hediye. Hızlı teslim. Bilgi: 0539 633 03 58",
   },
 
   {
@@ -445,7 +445,7 @@ Edit teslim süremiz 7-14 gündür; sosyal medya için en başarılı 5-10 karey
     galleryCategory: "dugun",
     metaTitle: "Gebze Nikah Fotoğrafçısı | Belediye Nikahı Çekimi",
     metaDescription:
-      "Gebze, Darıca, Çayırova belediye nikahı fotoğrafçısı. Sade, doğal, hızlı teslim. 90 dk paketten genişletilmiş nikah+kokteyl paketine. 0533 241 75 22",
+      "Gebze, Darıca, Çayırova belediye nikahı fotoğrafçısı. Sade, doğal, hızlı teslim. 90 dk paketten genişletilmiş nikah+kokteyl paketine. 0539 633 03 58",
   },
 
   {
@@ -559,7 +559,7 @@ Edit teslim süremiz 7-10 gündür; sosyal medya paylaşımı için ilk 5-10 kar
     galleryCategory: "nisan",
     metaTitle: "Gebze Nişan Fotoğrafçısı | Profesyonel Nişan Çekimi",
     metaDescription:
-      "Gebze, Darıca, Çayırova nişan fotoğrafçısı. Yüzük takma detayı, aile grup kareleri, tören sonrası dış çekim. Hızlı teslim. 0533 241 75 22",
+      "Gebze, Darıca, Çayırova nişan fotoğrafçısı. Yüzük takma detayı, aile grup kareleri, tören sonrası dış çekim. Hızlı teslim. 0539 633 03 58",
   },
 
   {
@@ -673,7 +673,7 @@ Edit teslim süremiz 7 gündür. Sosyal medya için 3-5 kareyi 24 saat içinde s
     galleryCategory: "nisan",
     metaTitle: "Gebze Söz Fotoğraf Çekimi | Samimi Söz Töreni Çekimi",
     metaDescription:
-      "Gebze söz çekimi. Ev odaklı, sade ve samimi yaklaşım. Söz tatlısı, yüzük detayı, aile kareleri. Hızlı teslim. Bilgi: 0533 241 75 22",
+      "Gebze söz çekimi. Ev odaklı, sade ve samimi yaklaşım. Söz tatlısı, yüzük detayı, aile kareleri. Hızlı teslim. Bilgi: 0539 633 03 58",
   },
 
   {
@@ -782,7 +782,7 @@ Edit teslim süremiz 10-14 gündür; sosyal medya için 5-10 kareyi 48 saat içi
     galleryCategory: "kina",
     metaTitle: "Gebze Kına Fotoğraf Çekimi | Geleneksel Kına Gecesi Çekimi",
     metaDescription:
-      "Gebze, Darıca, Çayırova kına gecesi fotoğrafçısı. Bindallı detayları, kına yakma, dans kareleri, 3 dk kına klibi. Hızlı teslim. 0533 241 75 22",
+      "Gebze, Darıca, Çayırova kına gecesi fotoğrafçısı. Bindallı detayları, kına yakma, dans kareleri, 3 dk kına klibi. Hızlı teslim. 0539 633 03 58",
   },
 
   {
@@ -896,7 +896,7 @@ Edit teslim süremiz 10-14 gündür. Sünnet çekimi tek başına alınabildiği
     galleryCategory: "sunnet",
     metaTitle: "Gebze Sünnet Fotoğraf Çekimi | Sünnet Düğünü Çekimi",
     metaDescription:
-      "Gebze sünnet fotoğrafçısı. Stüdyo poz, konvoy, salon kapsam ve sünnet klibi. Çocuk odaklı sabırlı yaklaşım. 0533 241 75 22",
+      "Gebze sünnet fotoğrafçısı. Stüdyo poz, konvoy, salon kapsam ve sünnet klibi. Çocuk odaklı sabırlı yaklaşım. 0539 633 03 58",
   },
 
   {
@@ -1003,7 +1003,7 @@ Konvoy çekimi tek başına 30-45 dakikalık bir kapsam olduğu için sünnet d�
     galleryCategory: "sunnet",
     metaTitle: "Gebze Sünnet Konvoy Çekimi | Sinematik Konvoy Videosu",
     metaDescription:
-      "Gebze sünnet konvoy çekimi. Motorsiklet takip, drone, gimbal stabilizatör. Sinematik klip + foto. Hızlı teslim. 0533 241 75 22",
+      "Gebze sünnet konvoy çekimi. Motorsiklet takip, drone, gimbal stabilizatör. Sinematik klip + foto. Hızlı teslim. 0539 633 03 58",
   },
 
   {
@@ -1117,7 +1117,7 @@ Edit teslim süremiz 7 gündür; sosyal medya için 5 kareyi 24 saatte iletiyoru
     galleryCategory: "nisan",
     metaTitle: "Gebze Evlilik Teklifi Fotoğraf Çekimi | Sürpriz Çekim",
     metaDescription:
-      "Gebze, Darıca, Bayramoğlu evlilik teklifi sürpriz çekimi. Telefoto lens, gizli pozisyon, teklif sonrası çift seansı. Hızlı teslim. 0533 241 75 22",
+      "Gebze, Darıca, Bayramoğlu evlilik teklifi sürpriz çekimi. Telefoto lens, gizli pozisyon, teklif sonrası çift seansı. Hızlı teslim. 0539 633 03 58",
   },
 
   {
@@ -1234,7 +1234,7 @@ Edit teslim süremiz 10-14 gündür. Save the Date paketini alan çiftler düğ�
     galleryCategory: "nisan",
     metaTitle: "Gebze Save the Date Çekimi | Düğün Öncesi Romantik Çekim",
     metaDescription:
-      "Gebze save the date çekimi. Bayramoğlu, Eskihisar, Darıca sahili. Drone, video, davetiye tasarım önerileri. Hızlı teslim. 0533 241 75 22",
+      "Gebze save the date çekimi. Bayramoğlu, Eskihisar, Darıca sahili. Drone, video, davetiye tasarım önerileri. Hızlı teslim. 0539 633 03 58",
   },
 
   {
@@ -1343,7 +1343,7 @@ Sanatsal yaklaşım ön planda olduğu için renk koreksiyonu ve bazen sanat edi
     galleryCategory: "dis-cekim",
     metaTitle: "Gebze Trash the Dress Çekimi | Sanatsal Düğün Sonrası Çekim",
     metaDescription:
-      "Gebze trash the dress çekimi. Bayramoğlu, Eskihisar, Hereke kıyıları. Sanatsal yaklaşım, drone, sinematik klip. 0533 241 75 22",
+      "Gebze trash the dress çekimi. Bayramoğlu, Eskihisar, Hereke kıyıları. Sanatsal yaklaşım, drone, sinematik klip. 0539 633 03 58",
   },
 
   {
@@ -1452,7 +1452,7 @@ Trash the Dress'ten farkı: after wedding'de gelinlik hala kullanılabilir kalı
     galleryCategory: "dis-cekim",
     metaTitle: "Gebze After Wedding Çekimi | Düğün Sonrası Doğal Kareler",
     metaDescription:
-      "Gebze after wedding çekimi. Düğünden sonra rahat ve doğal seans. Bayramoğlu, Adalar, kırsal mekanlar. Drone, klip. 0533 241 75 22",
+      "Gebze after wedding çekimi. Düğünden sonra rahat ve doğal seans. Bayramoğlu, Adalar, kırsal mekanlar. Drone, klip. 0539 633 03 58",
   },
 
   {
@@ -1562,6 +1562,6 @@ Dış çekim, düğün paketine dahil olduğunda standart 30-45 dakikalık bir s
     galleryCategory: "dis-cekim",
     metaTitle: "Gebze Dış Çekim Fotoğraf | Bayramoğlu, Eskihisar Düğün Çekimi",
     metaDescription:
-      "Gebze, Darıca, Bayramoğlu dış çekim fotoğraf. Altın saat, drone, çoklu mekan. Romantik atmosfer + sanatsal kareler. 0533 241 75 22",
+      "Gebze, Darıca, Bayramoğlu dış çekim fotoğraf. Altın saat, drone, çoklu mekan. Romantik atmosfer + sanatsal kareler. 0539 633 03 58",
   },
 ];

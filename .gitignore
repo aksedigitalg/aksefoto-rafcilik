@@ -45,3 +45,5 @@ public/robots.txt
 # Server logs
 *.log
 akse-server.log
+
+.vercel

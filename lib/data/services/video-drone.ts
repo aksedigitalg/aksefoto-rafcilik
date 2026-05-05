@@ -32,7 +32,7 @@ Hizmet türleri: Tanıtım filmi (1-3 dk sinematik), kurumsal eğitim videosu (5
     relatedServices: ["tanitim-filmi-cekimi", "video-editoru", "drone-fotograf-ve-video", "youtube-video-cekimi"],
     galleryCategory: "video",
     metaTitle: "Gebze Video Çekimi | 4K Profesyonel Video Hizmeti",
-    metaDescription: "Gebze video çekimi. 4K, multi-cam, gimbal, drone. Tanıtım, etkinlik, ürün, kurumsal video. Çift dil alt yazı. 0533 241 75 22",
+    metaDescription: "Gebze video çekimi. 4K, multi-cam, gimbal, drone. Tanıtım, etkinlik, ürün, kurumsal video. Çift dil alt yazı. 0539 633 03 58",
   },
 
   {
@@ -66,7 +66,7 @@ Düğün video editörlüğü özel bir kategori; düğün kayıtlarınız varsa
     relatedServices: ["video-cekimi", "tanitim-filmi-cekimi", "dugun-hikayesi", "youtube-video-cekimi"],
     galleryCategory: "video",
     metaTitle: "Gebze Video Editörlüğü | Profesyonel Video Kurgu Hizmeti",
-    metaDescription: "Gebze video editörü. Ham kayıt → sinematik video. Renk grading, müzik, alt yazı, motion graphics. Düğün özel kategori. 0533 241 75 22",
+    metaDescription: "Gebze video editörü. Ham kayıt → sinematik video. Renk grading, müzik, alt yazı, motion graphics. Düğün özel kategori. 0539 633 03 58",
   },
 
   {
@@ -100,7 +100,7 @@ Aylık abonelik popüler: kanal başlangıcında her ay 4-8 video çekimi (hafta
     relatedServices: ["video-cekimi", "video-editoru", "sosyal-medya-video-cekimi", "sosyal-medya-yonetimi-ve-danismanligi"],
     galleryCategory: "video",
     metaTitle: "Gebze YouTube Video Çekimi | Kanal Açılış Paketi",
-    metaDescription: "Gebze YouTube çekim. Hazır setler, multi-cam, mikrofon, edit + thumbnail + banner. Aylık abonelik. 0533 241 75 22",
+    metaDescription: "Gebze YouTube çekim. Hazır setler, multi-cam, mikrofon, edit + thumbnail + banner. Aylık abonelik. 0539 633 03 58",
   },
 
   {
@@ -134,7 +134,7 @@ Aylık paket popüler: aylık 8-15 reels üretimi, sürekli içerik akışı sa�
     relatedServices: ["sosyal-medya-icin-fotograf-cekimi", "instagram-icin-fotograf-cekimi", "video-cekimi", "sosyal-medya-yonetimi-ve-danismanligi"],
     galleryCategory: "video",
     metaTitle: "Gebze Sosyal Medya Video Çekimi | Reels TikTok Çekim",
-    metaDescription: "Gebze reels video çekimi. Trend müzik, gimbal, hook + CTA yapısı. Aylık 8-15 reels paketi. 0533 241 75 22",
+    metaDescription: "Gebze reels video çekimi. Trend müzik, gimbal, hook + CTA yapısı. Aylık 8-15 reels paketi. 0539 633 03 58",
   },
 
   {
@@ -168,7 +168,7 @@ Uçuş kuralları: yerleşim alanı üstünde maksimum 50m yükseklik, no-fly zo
     relatedServices: ["havadan-fotograf", "video-cekimi", "tanitim-filmi-cekimi", "dugun-hikayesi"],
     galleryCategory: "drone",
     metaTitle: "Gebze Drone Fotoğraf ve Video | Hava Çekimi Hizmeti",
-    metaDescription: "Gebze drone çekim. SHGM lisanslı pilot, DJI Mavic 3 4K. Düğün, gayrimenkul, fabrika, doğa. NOTAM kontrolü. 0533 241 75 22",
+    metaDescription: "Gebze drone çekim. SHGM lisanslı pilot, DJI Mavic 3 4K. Düğün, gayrimenkul, fabrika, doğa. NOTAM kontrolü. 0539 633 03 58",
   },
 
   {
@@ -202,7 +202,7 @@ Kullanım alanları: gayrimenkul site genel kareler, fabrika/OSB pazarlama, rest
     relatedServices: ["drone-fotograf-ve-video", "mimari-fotograf", "emlak-fotografcisi", "dis-cekim-fotograf"],
     galleryCategory: "drone",
     metaTitle: "Gebze Havadan Fotoğraf | Drone Aerial Photography",
-    metaDescription: "Gebze hava fotoğrafı. RAW 20MP, altın+mavi saat, tilt-shift composit. Yarışma format, sanat baskı. 0533 241 75 22",
+    metaDescription: "Gebze hava fotoğrafı. RAW 20MP, altın+mavi saat, tilt-shift composit. Yarışma format, sanat baskı. 0539 633 03 58",
   },
 
   {
@@ -236,7 +236,7 @@ Kullanım alanları: Google Street View Inside (otel, restoran, salon, klinik i�
     relatedServices: ["sanal-tur-cekimi", "mekan-fotografcisi", "otel-fotograf-cekimi", "restoran-cekimi"],
     galleryCategory: "360-sanal-tur",
     metaTitle: "Gebze 360° Fotoğraf Çekimi | Google Street View",
-    metaDescription: "Gebze 360 derece fotoğraf. Google Street View Trusted, sanal tur, VR format. HDR, 11K çözünürlük. 0533 241 75 22",
+    metaDescription: "Gebze 360 derece fotoğraf. Google Street View Trusted, sanal tur, VR format. HDR, 11K çözünürlük. 0539 633 03 58",
   },
 
   {
@@ -270,6 +270,6 @@ VR uygulamaları (Oculus, Meta Quest) için ek format teslim ediliyor. Yıllık 
     relatedServices: ["360-derece-fotograf-cekimi", "mekan-fotografcisi", "otel-fotograf-cekimi", "emlak-fotografcisi"],
     galleryCategory: "360-sanal-tur",
     metaTitle: "Gebze Sanal Tur Çekimi | Virtual Tour Hizmeti",
-    metaDescription: "Gebze sanal tur. Matterport, Kuula, Google Street View. Hot spot navigasyon, VR, web embed. 0533 241 75 22",
+    metaDescription: "Gebze sanal tur. Matterport, Kuula, Google Street View. Hot spot navigasyon, VR, web embed. 0539 633 03 58",
   },
 ];

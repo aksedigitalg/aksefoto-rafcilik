@@ -32,7 +32,7 @@ Hızlı teslim önemlidir; etkinlik sonrası 24 saat içinde 10-20 'preview' kar
     relatedServices: ["konser-fotografcisi", "kurumsal-fotograf-cekimi", "tanitim-filmi-cekimi", "davet-cekimi"],
     galleryCategory: "etkinlik",
     metaTitle: "Gebze Etkinlik Fotoğrafçısı | Konferans, Lansman, Fuar Çekimi",
-    metaDescription: "Gebze etkinlik fotoğrafçısı. Konferans, lansman, fuar, gala. 24 saat preview, çoklu kameraman, highlight klibi. 0533 241 75 22",
+    metaDescription: "Gebze etkinlik fotoğrafçısı. Konferans, lansman, fuar, gala. 24 saat preview, çoklu kameraman, highlight klibi. 0539 633 03 58",
   },
 
   {
@@ -66,7 +66,7 @@ Edit aşamasında konsere özgü dramatic grading (low key veya high contrast) u
     relatedServices: ["etkinlik-fotografcisi", "spor-fotografcisi", "video-cekimi", "kurumsal-fotograf-cekimi"],
     galleryCategory: "etkinlik",
     metaTitle: "Gebze Konser Fotoğrafçısı | Festival ve Müzik Etkinliği",
-    metaDescription: "Gebze konser fotoğrafçısı. Düşük ışık uzmanlığı, sahne + backstage, festival çekimi. PR + albüm format. 0533 241 75 22",
+    metaDescription: "Gebze konser fotoğrafçısı. Düşük ışık uzmanlığı, sahne + backstage, festival çekimi. PR + albüm format. 0539 633 03 58",
   },
 
   {
@@ -100,7 +100,7 @@ Aylık antrenman aboneliği yapan kulüplerimiz var; her ay 1-2 ziyaret ile sür
     relatedServices: ["etkinlik-fotografcisi", "konser-fotografcisi", "drone-fotograf-ve-video", "video-cekimi"],
     galleryCategory: "etkinlik",
     metaTitle: "Gebze Spor Fotoğrafçısı | Maç ve Antrenman Çekimi",
-    metaDescription: "Gebze spor fotoğrafçısı. Futbol, basketbol, atletizm. Yüksek shutter, telefoto, drone, sporcu portfolyo. 0533 241 75 22",
+    metaDescription: "Gebze spor fotoğrafçısı. Futbol, basketbol, atletizm. Yüksek shutter, telefoto, drone, sporcu portfolyo. 0539 633 03 58",
   },
 
   {
@@ -134,6 +134,6 @@ Edit teslim 7 günde; sosyal medya için 5-10 kareyi 24 saat içinde iletiyoruz.
     relatedServices: ["etkinlik-fotografcisi", "dogum-gunu-fotografcisi", "1-yas-pasta-patlatma", "aile-fotografcisi"],
     galleryCategory: "etkinlik",
     metaTitle: "Gebze Davet Çekimi | Yemek Daveti, Baby Shower Çekimi",
-    metaDescription: "Gebze davet fotoğrafçısı. Yemek daveti, baby shower, gelin duşu. Samimi yaklaşım, flaşsız çekim, hızlı teslim. 0533 241 75 22",
+    metaDescription: "Gebze davet fotoğrafçısı. Yemek daveti, baby shower, gelin duşu. Samimi yaklaşım, flaşsız çekim, hızlı teslim. 0539 633 03 58",
   },
 ];

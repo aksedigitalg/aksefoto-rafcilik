@@ -15,10 +15,10 @@ export const BUSINESS = {
   founded: "2025",
 
   // ----- Iletisim -----
-  phone: "+905332417522",
-  phoneDisplay: "0533 241 75 22",
-  whatsapp: "+905332417522",
-  whatsappDisplay: "0533 241 75 22",
+  phone: "+905396330358",
+  phoneDisplay: "0539 633 03 58",
+  whatsapp: "+905396330358",
+  whatsappDisplay: "0539 633 03 58",
   email: "info@aksedigital.com",
 
   // ----- Adres -----

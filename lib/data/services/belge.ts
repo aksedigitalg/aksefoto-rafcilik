@@ -32,7 +32,7 @@ Tüm belge fotoğraf türleri (vesikalık, biyometrik, pasaport, vize, ehliyet, 
     relatedServices: ["vesikalik-fotograf-cekimi", "pasaport-fotografi", "vize-fotografi", "ehliyet-fotografi"],
     galleryCategory: "studyo",
     metaTitle: "Gebze Biyometrik Fotoğraf | Anında Baskılı Pasaport Çekimi",
-    metaDescription: "Gebze Güzeller biyometrik fotoğraf. ICAO/Schengen/ABD standartları, anında baskı (5 dk), randevu gerekmez. Bebek/çocuk için sabırlı. 0533 241 75 22",
+    metaDescription: "Gebze Güzeller biyometrik fotoğraf. ICAO/Schengen/ABD standartları, anında baskı (5 dk), randevu gerekmez. Bebek/çocuk için sabırlı. 0539 633 03 58",
   },
 
   {
@@ -64,7 +64,7 @@ Stüdyomuzda farklı boyut şablonları var: 4.5x6 cm (klasik vesikalık), 3.5x4
     relatedServices: ["biyometrik-fotograf-cekimi", "pasaport-fotografi", "ehliyet-fotografi", "kimlik-fotografi"],
     galleryCategory: "studyo",
     metaTitle: "Gebze Vesikalık Fotoğraf | Anında Baskı, Klasik Vesikalık",
-    metaDescription: "Gebze vesikalık fotoğraf çekimi. Klasik 4.5x6 cm, renkli + siyah-beyaz, anında baskı (10 dk). İş başvurusu + diploma uyumlu. 0533 241 75 22",
+    metaDescription: "Gebze vesikalık fotoğraf çekimi. Klasik 4.5x6 cm, renkli + siyah-beyaz, anında baskı (10 dk). İş başvurusu + diploma uyumlu. 0539 633 03 58",
   },
 
   {
@@ -96,7 +96,7 @@ Bebek/küçük çocuk pasaport fotoğrafı zorlu bir iştir; çocuğun ifadesi n
     relatedServices: ["biyometrik-fotograf-cekimi", "vize-fotografi", "vesikalik-fotograf-cekimi", "kimlik-fotografi"],
     galleryCategory: "studyo",
     metaTitle: "Gebze Pasaport Fotoğrafı | Türkiye e-Pasaport Çekimi",
-    metaDescription: "Gebze pasaport fotoğrafı. Türkiye e-pasaport standartları, 5x6 cm, ICAO uyumlu. Anında baskı, dijital JPG. Bebek/çocuk için sabırlı. 0533 241 75 22",
+    metaDescription: "Gebze pasaport fotoğrafı. Türkiye e-pasaport standartları, 5x6 cm, ICAO uyumlu. Anında baskı, dijital JPG. Bebek/çocuk için sabırlı. 0539 633 03 58",
   },
 
   {
@@ -128,7 +128,7 @@ Vize fotoğrafı genel kuralları: arka plan açık beyaz, yüz tam ön cepheden
     relatedServices: ["pasaport-fotografi", "biyometrik-fotograf-cekimi", "vesikalik-fotograf-cekimi", "kimlik-fotografi"],
     galleryCategory: "studyo",
     metaTitle: "Gebze Vize Fotoğrafı | Schengen ABD UK Vize Çekimi",
-    metaDescription: "Gebze vize fotoğraf çekimi. Schengen, ABD, UK, Çin, Japonya standartları. Konsolosluk reddini önleyen titiz çekim. 0533 241 75 22",
+    metaDescription: "Gebze vize fotoğraf çekimi. Schengen, ABD, UK, Çin, Japonya standartları. Konsolosluk reddini önleyen titiz çekim. 0539 633 03 58",
   },
 
   {
@@ -160,7 +160,7 @@ Anında ehliyet yenileme veya ilk ehliyet başvurusunda, fotoğrafın standart d
     relatedServices: ["pasaport-fotografi", "biyometrik-fotograf-cekimi", "kimlik-fotografi", "vesikalik-fotograf-cekimi"],
     galleryCategory: "studyo",
     metaTitle: "Gebze Ehliyet Fotoğrafı | Yeni Nesil Ehliyet Çekimi",
-    metaDescription: "Gebze ehliyet fotoğraf çekimi. Yeni nesil ehliyet standartı, biyometrik, anında baskı. Sürücü kursu + ehliyet yenileme. 0533 241 75 22",
+    metaDescription: "Gebze ehliyet fotoğraf çekimi. Yeni nesil ehliyet standartı, biyometrik, anında baskı. Sürücü kursu + ehliyet yenileme. 0539 633 03 58",
   },
 
   {
@@ -192,6 +192,6 @@ Kimlik fotoğrafı standartı: 5x6 cm, açık beyaz/gri arka plan, ön cephe, g�
     relatedServices: ["pasaport-fotografi", "ehliyet-fotografi", "biyometrik-fotograf-cekimi", "vesikalik-fotograf-cekimi"],
     galleryCategory: "studyo",
     metaTitle: "Gebze Kimlik Fotoğrafı | TC Kimlik Kartı Çekimi",
-    metaDescription: "Gebze kimlik fotoğrafı. Yeni TC kimlik kartı standartı, biyometrik, anında baskı. Bebek/çocuk için sabırlı. 0533 241 75 22",
+    metaDescription: "Gebze kimlik fotoğrafı. Yeni TC kimlik kartı standartı, biyometrik, anında baskı. Bebek/çocuk için sabırlı. 0539 633 03 58",
   },
 ];

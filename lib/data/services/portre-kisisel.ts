@@ -53,7 +53,7 @@ Edit aşamasında ten tonu, gözlerin parlaklığı ve kontrast düzenlenir; aş
     relatedServices: ["kisisel-fotograf-cekimi", "studyo-fotograf-cekimi", "kurumsal-fotograf-cekimi", "moda-fotografcisi"],
     galleryCategory: "portre",
     metaTitle: "Gebze Portre Çekimi | Profesyonel Portre Fotoğrafçısı",
-    metaDescription: "Gebze portre çekimi. Stüdyo + dış çekim, klasik/kurumsal/sanatsal stil. Kişiselleştirilmiş yönlendirme, hızlı teslim. 0533 241 75 22",
+    metaDescription: "Gebze portre çekimi. Stüdyo + dış çekim, klasik/kurumsal/sanatsal stil. Kişiselleştirilmiş yönlendirme, hızlı teslim. 0539 633 03 58",
   },
 
   {
@@ -85,7 +85,7 @@ Edit teslim süremiz 7-10 gündür. Sosyal medya için 5 kareyi 3 gün içinde i
     relatedServices: ["portre-cekimi", "konsept-fotograf-cekimi", "moda-fotografcisi", "studyo-fotograf-cekimi"],
     galleryCategory: "portre",
     metaTitle: "Gebze Kişisel Fotoğraf Çekimi | Konseptli Kişisel Portre",
-    metaDescription: "Gebze kişisel fotoğraf çekimi. Konseptli portre, stüdyo + dış çekim, saç-makyaj koordinasyonu. Sosyal medya için optimize. 0533 241 75 22",
+    metaDescription: "Gebze kişisel fotoğraf çekimi. Konseptli portre, stüdyo + dış çekim, saç-makyaj koordinasyonu. Sosyal medya için optimize. 0539 633 03 58",
   },
 
   {
@@ -117,7 +117,7 @@ Stüdyo çekimi dış çekime göre daha hızlı ve verimlidir; hava durumu, ula
     relatedServices: ["portre-cekimi", "kisisel-fotograf-cekimi", "konsept-fotograf-cekimi", "moda-fotografcisi"],
     galleryCategory: "studyo",
     metaTitle: "Gebze Stüdyo Fotoğraf Çekimi | Profesyonel Fotoğraf Stüdyosu",
-    metaDescription: "Gebze Güzeller fotoğraf stüdyosu. 30 m² alan, 7 arka plan, profesyonel ışık. Portre, aile, bebek, ürün, biyometrik. 0533 241 75 22",
+    metaDescription: "Gebze Güzeller fotoğraf stüdyosu. 30 m² alan, 7 arka plan, profesyonel ışık. Portre, aile, bebek, ürün, biyometrik. 0539 633 03 58",
   },
 
   {
@@ -149,7 +149,7 @@ Konsept çekim hazırlığı 1-2 hafta sürer; kostüm, dekor temini ve makyaj k
     relatedServices: ["portre-cekimi", "moda-fotografcisi", "kisisel-fotograf-cekimi", "studyo-fotograf-cekimi"],
     galleryCategory: "konsept",
     metaTitle: "Gebze Konsept Fotoğraf Çekimi | Tema ve Sanatsal Çekim",
-    metaDescription: "Gebze konsept çekim. Mood board, tema kostüm, sanatsal renk grading. Vintage, gothic, boho, profesyonel konseptler. 0533 241 75 22",
+    metaDescription: "Gebze konsept çekim. Mood board, tema kostüm, sanatsal renk grading. Vintage, gothic, boho, profesyonel konseptler. 0539 633 03 58",
   },
 
   {
@@ -183,7 +183,7 @@ Edit aşamasında ten tonu, kumaş kıvrımı, renk doygunluğu ve atmosfer ış
     relatedServices: ["konsept-fotograf-cekimi", "kisisel-fotograf-cekimi", "urun-fotograf-cekimi", "katalog-cekimi"],
     galleryCategory: "moda",
     metaTitle: "Gebze Moda Fotoğrafçısı | Lookbook ve Editorial Çekim",
-    metaDescription: "Gebze moda fotoğrafçısı. Lookbook, e-ticaret, editorial çekim. Saç-makyaj koordinasyonu, marka renk uyumu. 0533 241 75 22",
+    metaDescription: "Gebze moda fotoğrafçısı. Lookbook, e-ticaret, editorial çekim. Saç-makyaj koordinasyonu, marka renk uyumu. 0539 633 03 58",
   },
 
   {
@@ -215,7 +215,7 @@ Cübbe ve kep çoğu üniversitede törenden hemen sonra iade edilir; bu yüzden
     relatedServices: ["portre-cekimi", "kisisel-fotograf-cekimi", "aile-fotografcisi", "etkinlik-fotografcisi"],
     galleryCategory: "mezuniyet",
     metaTitle: "Gebze Mezuniyet Fotoğraf Çekimi | Üniversite Lise Çekimi",
-    metaDescription: "Gebze mezuniyet fotoğrafçısı. Cübbe + kep + diploma, kampüs dış çekim, aile + arkadaş kareleri. 7 günde teslim. 0533 241 75 22",
+    metaDescription: "Gebze mezuniyet fotoğrafçısı. Cübbe + kep + diploma, kampüs dış çekim, aile + arkadaş kareleri. 7 günde teslim. 0539 633 03 58",
   },
 
   {
@@ -249,7 +249,7 @@ Aylık içerik paketi alan içerik üreticilerine 1 ay boyunca yetecek 100-150 k
     relatedServices: ["instagram-icin-fotograf-cekimi", "kisisel-fotograf-cekimi", "moda-fotografcisi", "sosyal-medya-video-cekimi"],
     galleryCategory: "portre",
     metaTitle: "Gebze Sosyal Medya İçin Fotoğraf Çekimi | İnfluencer Çekim",
-    metaDescription: "Gebze sosyal medya çekimi. Instagram, TikTok, LinkedIn formatları, BTS video, aylık içerik paketi. İçerik üretici uyumlu. 0533 241 75 22",
+    metaDescription: "Gebze sosyal medya çekimi. Instagram, TikTok, LinkedIn formatları, BTS video, aylık içerik paketi. İçerik üretici uyumlu. 0539 633 03 58",
   },
 
   {
@@ -283,6 +283,6 @@ Instagram odaklı çekim profesyonel bir görsel kimlik isteyen tüm hesaplar i�
     relatedServices: ["sosyal-medya-icin-fotograf-cekimi", "kisisel-fotograf-cekimi", "sosyal-medya-yonetimi-ve-danismanligi", "sosyal-medya-video-cekimi"],
     galleryCategory: "portre",
     metaTitle: "Gebze Instagram İçin Fotoğraf Çekimi | Feed ve Reels Çekim",
-    metaDescription: "Gebze instagram çekimi. Feed grid planlama, reels video, stories formatı, aylık içerik takvimi. Görsel kimlik önerisi. 0533 241 75 22",
+    metaDescription: "Gebze instagram çekimi. Feed grid planlama, reels video, stories formatı, aylık içerik takvimi. Görsel kimlik önerisi. 0539 633 03 58",
   },
 ];

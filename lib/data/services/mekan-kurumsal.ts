@@ -32,7 +32,7 @@ Sanal tur (360°) ile birleştirildiğinde tam dijital deneyim oluşur — müş
     relatedServices: ["restoran-cekimi", "otel-fotograf-cekimi", "sanal-tur-cekimi", "mimari-fotograf"],
     galleryCategory: "emlak",
     metaTitle: "Gebze Mekan Fotoğrafçısı | Kafe, Salon, Klinik Çekimi",
-    metaDescription: "Gebze mekan fotoğrafçısı. Kafe, restoran, salon, klinik tanıtım çekimi. Geniş açı, ambient, sanal tur. 0533 241 75 22",
+    metaDescription: "Gebze mekan fotoğrafçısı. Kafe, restoran, salon, klinik tanıtım çekimi. Geniş açı, ambient, sanal tur. 0539 633 03 58",
   },
 
   {
@@ -66,7 +66,7 @@ Sahibinden ilanı için 1280x960 max 200KB format, Hepsiemlak ve diğer platform
     relatedServices: ["mekan-fotografcisi", "mimari-fotograf", "drone-fotograf-ve-video", "sanal-tur-cekimi"],
     galleryCategory: "emlak",
     metaTitle: "Gebze Emlak Fotoğrafçısı | Satılık Kiralık Ev Çekimi",
-    metaDescription: "Gebze emlak fotoğrafçısı. Sahibinden + Hepsiemlak format, geniş açı, HDR, drone. Daire/villa/site/ticari. 0533 241 75 22",
+    metaDescription: "Gebze emlak fotoğrafçısı. Sahibinden + Hepsiemlak format, geniş açı, HDR, drone. Daire/villa/site/ticari. 0539 633 03 58",
   },
 
   {
@@ -100,7 +100,7 @@ Aylık abonelik (yeni dekorasyon, yeni etkinlik, mevsim değişikliği) yapan ot
     relatedServices: ["mekan-fotografcisi", "mimari-fotograf", "drone-fotograf-ve-video", "sanal-tur-cekimi"],
     galleryCategory: "otel",
     metaTitle: "Gebze Otel Fotoğraf Çekimi | Booking.com Otel Çekimi",
-    metaDescription: "Gebze otel fotoğrafçısı. Booking, Trivago, Tripadvisor format. Oda, lobi, havuz, drone, sanal tur. 0533 241 75 22",
+    metaDescription: "Gebze otel fotoğrafçısı. Booking, Trivago, Tripadvisor format. Oda, lobi, havuz, drone, sanal tur. 0539 633 03 58",
   },
 
   {
@@ -134,7 +134,7 @@ Edit aşamasında restoran ışığının ton karakterini koruyoruz; sıcak ahş
     relatedServices: ["mekan-fotografcisi", "yemek-fotografcisi", "sanal-tur-cekimi", "sosyal-medya-yonetimi-ve-danismanligi"],
     galleryCategory: "emlak",
     metaTitle: "Gebze Restoran Çekimi | Restoran Tanıtım Fotoğrafı",
-    metaDescription: "Gebze restoran fotoğrafçısı. Mekan + yemek + ambient + personel kapsamı. Reels, sosyal medya aylık abonelik. 0533 241 75 22",
+    metaDescription: "Gebze restoran fotoğrafçısı. Mekan + yemek + ambient + personel kapsamı. Reels, sosyal medya aylık abonelik. 0539 633 03 58",
   },
 
   {
@@ -168,7 +168,7 @@ Edit aşamasında perspektif düzleştirme, vertical alignment, gökyüzü deği
     relatedServices: ["emlak-fotografcisi", "mekan-fotografcisi", "drone-fotograf-ve-video", "sanal-tur-cekimi"],
     galleryCategory: "emlak",
     metaTitle: "Gebze Mimari Fotoğraf | Mimar İç Mimar Portfolyo Çekimi",
-    metaDescription: "Gebze mimari fotoğrafçı. Tilt-shift, mavi saat, drone, HDR. Mimar/iç mimar/müteahhit portfolyo. 0533 241 75 22",
+    metaDescription: "Gebze mimari fotoğrafçı. Tilt-shift, mavi saat, drone, HDR. Mimar/iç mimar/müteahhit portfolyo. 0539 633 03 58",
   },
 
   {
@@ -202,7 +202,7 @@ Kurumsal kareler şirketin web sitesi 'Hakkımızda' bölümü, LinkedIn şirket
     relatedServices: ["portre-cekimi", "tanitim-filmi-cekimi", "sanayi-fotografciligi", "fabrika-cekimi"],
     galleryCategory: "studyo",
     metaTitle: "Gebze Kurumsal Fotoğraf Çekimi | Şirket Personel Portresi",
-    metaDescription: "Gebze kurumsal fotoğrafçı. Personel portreleri, ofis ortamı, takım pozları. LinkedIn + web format. 1 günde 50 kişi. 0533 241 75 22",
+    metaDescription: "Gebze kurumsal fotoğrafçı. Personel portreleri, ofis ortamı, takım pozları. LinkedIn + web format. 1 günde 50 kişi. 0539 633 03 58",
   },
 
   {
@@ -236,7 +236,7 @@ Müzik: telifsiz stok platformlardan marka tonuna uygun parça. Alt yazı: Türk
     relatedServices: ["video-cekimi", "kurumsal-fotograf-cekimi", "drone-fotograf-ve-video", "fabrika-cekimi"],
     galleryCategory: "video",
     metaTitle: "Gebze Tanıtım Filmi Çekimi | Şirket Kurumsal Video",
-    metaDescription: "Gebze tanıtım filmi. Şirket, fabrika, marka için 1-3 dk sinematik film. 4K, drone, çift dil alt yazı. 0533 241 75 22",
+    metaDescription: "Gebze tanıtım filmi. Şirket, fabrika, marka için 1-3 dk sinematik film. 4K, drone, çift dil alt yazı. 0539 633 03 58",
   },
 
   {
@@ -270,7 +270,7 @@ NDA (gizlilik sözleşmesi) çoğu B2B çekiminde standart. Ürün/üretim süre
     relatedServices: ["sanayi-fotografciligi", "tanitim-filmi-cekimi", "drone-fotograf-ve-video", "kurumsal-fotograf-cekimi"],
     galleryCategory: "emlak",
     metaTitle: "Gebze Fabrika Çekimi | GOSB TOSB Üretim Tesisi Çekim",
-    metaDescription: "Gebze fabrika fotoğrafçısı. GOSB, TOSB, Bilişim Vadisi, Dilovası OSB. Üretim hattı, drone, Ar-Ge, NDA standardı. 0533 241 75 22",
+    metaDescription: "Gebze fabrika fotoğrafçısı. GOSB, TOSB, Bilişim Vadisi, Dilovası OSB. Üretim hattı, drone, Ar-Ge, NDA standardı. 0539 633 03 58",
   },
 
   {
@@ -304,6 +304,6 @@ Endüstriyel ışık zorludur; floresan/karbon ark/sodium gibi farklı ışık t
     relatedServices: ["fabrika-cekimi", "drone-fotograf-ve-video", "tanitim-filmi-cekimi", "kurumsal-fotograf-cekimi"],
     galleryCategory: "emlak",
     metaTitle: "Gebze Sanayi Fotoğrafçılığı | OSB Endüstriyel Çekim",
-    metaDescription: "Gebze sanayi fotoğrafçısı. GOSB, TOSB, OSB tesis, depo, lojistik. ATEX uyumu, B2B katalog/ihale formatı. 0533 241 75 22",
+    metaDescription: "Gebze sanayi fotoğrafçısı. GOSB, TOSB, OSB tesis, depo, lojistik. ATEX uyumu, B2B katalog/ihale formatı. 0539 633 03 58",
   },
 ];
