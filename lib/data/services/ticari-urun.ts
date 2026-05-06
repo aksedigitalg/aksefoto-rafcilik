@@ -32,7 +32,7 @@ Edit aşamasında arka plan tam beyaz çekiliyor (RGB 255), ürünün rengi ger�
     relatedServices: ["e-ticaret-fotograf-cekimi", "katalog-cekimi", "taki-fotograf-cekimi", "yemek-fotografcisi"],
     galleryCategory: "urun",
     metaTitle: "Gebze Ürün Fotoğraf Çekimi | E-Ticaret Beyaz Fon Çekimi",
-    metaDescription: "Gebze ürün fotoğrafçısı. Trendyol/Hepsiburada/Amazon standartı beyaz fon, lifestyle, makro. Çoklu açı, renk doğruluğu. 0533 241 75 22",
+    metaDescription: "Gebze ürün fotoğrafçısı. Trendyol/Hepsiburada/Amazon standartı beyaz fon, lifestyle, makro. Çoklu açı, renk doğruluğu. 0539 633 03 58",
   },
 
   {
@@ -66,7 +66,7 @@ Edit aşamasında renk koreksiyonu, ürün vurgusu, marka logosu ekleme, alt yaz
     relatedServices: ["urun-fotograf-cekimi", "e-ticaret-fotograf-cekimi", "sosyal-medya-video-cekimi", "reklam-fotografciligi"],
     galleryCategory: "video",
     metaTitle: "Gebze Ürün Video Çekimi | 360° Dönüş ve Reels Videosu",
-    metaDescription: "Gebze ürün video çekimi. 360° dönüş, Reels, e-ticaret videosu. Motorize döner tabla, gimbal, telifsiz müzik. 0533 241 75 22",
+    metaDescription: "Gebze ürün video çekimi. 360° dönüş, Reels, e-ticaret videosu. Motorize döner tabla, gimbal, telifsiz müzik. 0539 633 03 58",
   },
 
   {
@@ -100,7 +100,7 @@ Aylık paket isteyen e-ticaret satıcıları için her ay yeni gelen ürünleri 
     relatedServices: ["urun-fotograf-cekimi", "katalog-cekimi", "urun-video-cekimi", "moda-fotografcisi"],
     galleryCategory: "urun",
     metaTitle: "Gebze E-Ticaret Fotoğraf Çekimi | Trendyol Hepsiburada Çekim",
-    metaDescription: "Gebze e-ticaret ürün fotoğrafçısı. Trendyol, Hepsiburada, n11, Amazon standartları. Manken çekim, aylık abonelik. 0533 241 75 22",
+    metaDescription: "Gebze e-ticaret ürün fotoğrafçısı. Trendyol, Hepsiburada, n11, Amazon standartları. Manken çekim, aylık abonelik. 0539 633 03 58",
   },
 
   {
@@ -134,7 +134,7 @@ Edit aşamasında renk paleti tutarlı tutuluyor; bir markanın tüm ürünleri 
     relatedServices: ["urun-fotograf-cekimi", "moda-fotografcisi", "e-ticaret-fotograf-cekimi", "reklam-fotografciligi"],
     galleryCategory: "urun",
     metaTitle: "Gebze Katalog Çekimi | Marka Katalog Fotoğraf Çekimi",
-    metaDescription: "Gebze katalog çekimi. Marka brief odaklı, 1-3 günlük kapsam, manken + stylist. Yıllık mevsimsel paket. 0533 241 75 22",
+    metaDescription: "Gebze katalog çekimi. Marka brief odaklı, 1-3 günlük kapsam, manken + stylist. Yıllık mevsimsel paket. 0539 633 03 58",
   },
 
   {
@@ -168,7 +168,7 @@ Yerel butikler ve KOBİ markaları için 'Mini Kampanya' paketimiz var; düşük
     relatedServices: ["katalog-cekimi", "urun-fotograf-cekimi", "moda-fotografcisi", "kurumsal-fotograf-cekimi"],
     galleryCategory: "urun",
     metaTitle: "Gebze Reklam Fotoğrafçılığı | Marka Kampanya Çekimi",
-    metaDescription: "Gebze reklam fotoğrafçısı. Marka kampanyası, billboard, dergi, dijital. Tam prodüksiyon ekibi, sanat yönetmeni. 0533 241 75 22",
+    metaDescription: "Gebze reklam fotoğrafçısı. Marka kampanyası, billboard, dergi, dijital. Tam prodüksiyon ekibi, sanat yönetmeni. 0539 633 03 58",
   },
 
   {
@@ -202,7 +202,7 @@ E-ticaret için açı standartları: önden, yandan, eldeki/üstündeki sahneli,
     relatedServices: ["urun-fotograf-cekimi", "katalog-cekimi", "e-ticaret-fotograf-cekimi", "reklam-fotografciligi"],
     galleryCategory: "taki",
     metaTitle: "Gebze Takı Fotoğraf Çekimi | Mücevher Makro Çekimi",
-    metaDescription: "Gebze takı fotoğrafçısı. Pırlanta, yüzük, kolye için makro çekim. Detaylı retouch, floating efekt, aylık abonelik. 0533 241 75 22",
+    metaDescription: "Gebze takı fotoğrafçısı. Pırlanta, yüzük, kolye için makro çekim. Detaylı retouch, floating efekt, aylık abonelik. 0539 633 03 58",
   },
 
   {
@@ -236,7 +236,7 @@ Edit aşamasında boyada parlama + reklam tabelası gibi rahatsız edici öğele
     relatedServices: ["urun-fotograf-cekimi", "drone-fotograf-ve-video", "tanitim-filmi-cekimi", "reklam-fotografciligi"],
     galleryCategory: "araba",
     metaTitle: "Gebze Araba Fotoğraf Çekimi | Galeri Sahibinden Çekim",
-    metaDescription: "Gebze araba fotoğrafçısı. Sahibinden + galeri + lüks araç çekimi, drone hava, iç-dış detay. Bayramoğlu/Hereke lokasyon. 0533 241 75 22",
+    metaDescription: "Gebze araba fotoğrafçısı. Sahibinden + galeri + lüks araç çekimi, drone hava, iç-dış detay. Bayramoğlu/Hereke lokasyon. 0539 633 03 58",
   },
 
   {
@@ -270,6 +270,6 @@ Restoran menü çekimi için aylık 5-10 yeni yemek standartı. Sosyal medya iç
     relatedServices: ["urun-fotograf-cekimi", "mekan-fotografcisi", "restoran-cekimi", "sosyal-medya-icin-fotograf-cekimi"],
     galleryCategory: "yemek",
     metaTitle: "Gebze Yemek Fotoğrafçısı | Restoran Menü Çekimi",
-    metaDescription: "Gebze yemek fotoğrafçısı. Restoran menü, sosyal medya, kafe-pasta çekimi. Yemek styling, buhar efekti, aylık paket. 0533 241 75 22",
+    metaDescription: "Gebze yemek fotoğrafçısı. Restoran menü, sosyal medya, kafe-pasta çekimi. Yemek styling, buhar efekti, aylık paket. 0539 633 03 58",
   },
 ];

@@ -32,7 +32,7 @@ Ders sonrası bir 'mezuniyet' projesi: öğrencinin kendi seçtiği konuda 10 fo
     relatedServices: ["sosyal-medya-yonetimi-ve-danismanligi", "video-editoru", "albüm-yapimi", "kisisel-fotograf-cekimi"],
     galleryCategory: "studyo",
     metaTitle: "Gebze Fotoğrafçılık Dersi | Bireysel ve Grup Eğitim",
-    metaDescription: "Gebze fotoğrafçılık dersi. Sıfırdan ileri seviye, bireysel + grup + online. Çocuk 'Genç Fotoğrafçı' programı. 0533 241 75 22",
+    metaDescription: "Gebze fotoğrafçılık dersi. Sıfırdan ileri seviye, bireysel + grup + online. Çocuk 'Genç Fotoğrafçı' programı. 0539 633 03 58",
   },
 
   {
@@ -66,7 +66,7 @@ Aylık paket farklı seviyelerde: 8 post/ay (mini), 16 post/ay (klasik), 30+ pos
     relatedServices: ["sosyal-medya-icin-fotograf-cekimi", "instagram-icin-fotograf-cekimi", "sosyal-medya-video-cekimi", "fotografcilik-dersi"],
     galleryCategory: "video",
     metaTitle: "Gebze Sosyal Medya Yönetimi ve Danışmanlığı",
-    metaDescription: "Gebze sosyal medya ajansı. Instagram + TikTok yönetim, içerik üretim, hashtag, reklam yönetim, influencer collab. 0533 241 75 22",
+    metaDescription: "Gebze sosyal medya ajansı. Instagram + TikTok yönetim, içerik üretim, hashtag, reklam yönetim, influencer collab. 0539 633 03 58",
   },
 
   {
@@ -100,7 +100,7 @@ Mini albüm en popüler hediye — anne-baba ve büyükanne-büyükbaba için ay
     relatedServices: ["dugun-fotografcisi", "fotograf-baski-hizmeti", "aile-fotografcisi", "yenidogan-cekimi"],
     galleryCategory: "studyo",
     metaTitle: "Gebze Albüm Yapımı | Kristal İtalyan Kumaş Düğün Albümü",
-    metaDescription: "Gebze albüm yapımı. Kristal, italyan kumaş, deri, fotokitap. Düğün, aile, yıllık. Tasarım + premium baskı. 0533 241 75 22",
+    metaDescription: "Gebze albüm yapımı. Kristal, italyan kumaş, deri, fotokitap. Düğün, aile, yıllık. Tasarım + premium baskı. 0539 633 03 58",
   },
 
   {
@@ -134,7 +134,7 @@ Süreç: Renk doğruluğu için kalibre proof baskı ön onayı — büyük bask
     relatedServices: ["albüm-yapimi", "dugun-fotografcisi", "aile-fotografcisi", "havadan-fotograf"],
     galleryCategory: "studyo",
     metaTitle: "Gebze Fotoğraf Baskı | Tuval Akrilik Alüminyum Baskı",
-    metaDescription: "Gebze fotoğraf baskı. Tuval, alüminyum, akrilik, fine art. 20x30 - 100x150 cm. Renk proof onayı. 0533 241 75 22",
+    metaDescription: "Gebze fotoğraf baskı. Tuval, alüminyum, akrilik, fine art. 20x30 - 100x150 cm. Renk proof onayı. 0539 633 03 58",
   },
 
   {
@@ -168,6 +168,6 @@ Aradığınız spesifik hizmet için yukarıdaki kategorilerden seçim yapabilir
     relatedServices: ["dugun-fotografcisi", "bebek-fotografcisi", "biyometrik-fotograf-cekimi", "kurumsal-fotograf-cekimi"],
     galleryCategory: "studyo",
     metaTitle: "Gebze Fotoğraf Çekimi | Tüm Hizmetler Tek Stüdyodan",
-    metaDescription: "Gebze fotoğraf çekimi. Düğün, bebek, vesikalık, ürün, kurumsal, drone, video — 70+ kategori. Akse Fotoğrafçılık. 0533 241 75 22",
+    metaDescription: "Gebze fotoğraf çekimi. Düğün, bebek, vesikalık, ürün, kurumsal, drone, video — 70+ kategori. Akse Fotoğrafçılık. 0539 633 03 58",
   },
 ];

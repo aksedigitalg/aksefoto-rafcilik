@@ -2,21 +2,23 @@ import Link from "next/link";
 import Image from "next/image";
 import { notFound } from "next/navigation";
 import { ArrowRight, Clock } from "lucide-react";
-import { blogPosts, BLOG_CATEGORIES } from "@/lib/data/blog-posts";
+import { getAllBlogPosts, getBlogCategories, getBlogPostsByCategory } from "@/lib/db/blog";
 import { buildMetadata } from "@/lib/seo";
 import { formatDate } from "@/lib/utils";
 import { getBlogCoverImage } from "@/lib/data/unsplash-images";
 import { BreadcrumbNav } from "@/components/seo/BreadcrumbNav";
 import { CTABanner } from "@/components/sections/CTABanner";
 
-export function generateStaticParams() {
-  return BLOG_CATEGORIES.map((cat) => ({ kategori: cat.toLocaleLowerCase("tr-TR") }));
+export async function generateStaticParams() {
+  const cats = await getBlogCategories();
+  return cats.map((cat) => ({ kategori: cat.toLocaleLowerCase("tr-TR") }));
 }
 
 export async function generateMetadata({ params }: { params: Promise<{ kategori: string }> }) {
   const { kategori } = await params;
   const decoded = decodeURIComponent(kategori);
-  const cat = BLOG_CATEGORIES.find((c) => c.toLocaleLowerCase("tr-TR") === decoded);
+  const cats = await getBlogCategories();
+  const cat = cats.find((c) => c.toLocaleLowerCase("tr-TR") === decoded);
   if (!cat) return { title: "Kategori Bulunamadı" };
   return buildMetadata({
     title: `${cat} | Blog`,
@@ -32,10 +34,11 @@ export default async function BlogCategoryPage({
 }) {
   const { kategori } = await params;
   const decoded = decodeURIComponent(kategori);
-  const cat = BLOG_CATEGORIES.find((c) => c.toLocaleLowerCase("tr-TR") === decoded);
+  const cats = await getBlogCategories();
+  const cat = cats.find((c) => c.toLocaleLowerCase("tr-TR") === decoded);
   if (!cat) notFound();
 
-  const posts = blogPosts.filter((p) => p.category === cat);
+  const posts = await getBlogPostsByCategory(cat);
 
   return (
     <div className="mx-auto max-w-7xl px-4 py-12 md:px-6 lg:px-8">
@@ -64,7 +67,7 @@ export default async function BlogCategoryPage({
           >
             Tüm Yazılar
           </Link>
-          {BLOG_CATEGORIES.map((c) => {
+          {cats.map((c) => {
             const isCurrent = c === cat;
             return (
               <Link

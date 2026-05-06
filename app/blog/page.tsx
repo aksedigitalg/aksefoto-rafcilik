@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { ArrowRight, Clock } from "lucide-react";
-import { blogPosts, BLOG_CATEGORIES } from "@/lib/data/blog-posts";
+import { getAllBlogPosts, getBlogCategories } from "@/lib/db/blog";
 import { buildMetadata } from "@/lib/seo";
 import { BUSINESS } from "@/lib/constants";
 import { formatDate } from "@/lib/utils";
@@ -15,10 +15,13 @@ export const metadata = buildMetadata({
   path: "/blog",
 });
 
-export default function BlogIndexPage() {
-  const sorted = [...blogPosts].sort(
-    (a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime(),
-  );
+export default async function BlogIndexPage() {
+  const [blogPosts, BLOG_CATEGORIES] = await Promise.all([
+    getAllBlogPosts(),
+    getBlogCategories(),
+  ]);
+  // getAllBlogPosts zaten published_at desc dondurur
+  const sorted = blogPosts;
 
   return (
     <div className="mx-auto max-w-7xl px-4 py-12 md:px-6 lg:px-8">

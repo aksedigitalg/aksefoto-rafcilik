@@ -1,18 +1,28 @@
 import type { MetadataRoute } from "next";
 import { BUSINESS, DISTRICTS } from "@/lib/constants";
-import { services } from "@/lib/data/services";
-import { neighborhoods } from "@/lib/data/neighborhoods";
-import { industrialZones } from "@/lib/data/industrial-zones";
+import { getAllServices } from "@/lib/db/services";
+import { getAllNeighborhoods } from "@/lib/db/neighborhoods";
+import { getAllIndustrialZones } from "@/lib/db/industrial-zones";
+import { getAllBlogPosts, getBlogCategories } from "@/lib/db/blog";
 
 /**
  * Otomatik sitemap.xml uretici.
- * Tum hizmet, mahalle, ilce, sanayi bolgesi sayfalarini dinamik olarak listeler.
+ * Tum hizmet, mahalle, ilce, sanayi bolgesi sayfalarini Supabase'den
+ * dinamik olarak listeler. ISR cache (revalidate: 60).
  */
-export default function sitemap(): MetadataRoute.Sitemap {
+export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const base = BUSINESS.siteUrl;
   const now = new Date();
 
-  // Statik sayfalar
+  const [services, neighborhoods, industrialZones, blogPosts, blogCategories] =
+    await Promise.all([
+      getAllServices(),
+      getAllNeighborhoods(),
+      getAllIndustrialZones(),
+      getAllBlogPosts(),
+      getBlogCategories(),
+    ]);
+
   const staticPaths: MetadataRoute.Sitemap = [
     { url: `${base}/`, lastModified: now, changeFrequency: "daily", priority: 1.0 },
     { url: `${base}/hakkimizda`, lastModified: now, changeFrequency: "monthly", priority: 0.7 },
@@ -29,7 +39,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/kullanim-sartlari`, lastModified: now, changeFrequency: "yearly", priority: 0.3 },
   ];
 
-  // Hizmet sayfalari (70+)
   const servicePaths: MetadataRoute.Sitemap = services.map((s) => ({
     url: `${base}/hizmetler/${s.slug}`,
     lastModified: now,
@@ -37,7 +46,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.9,
   }));
 
-  // Galeri kategorileri
   const galleryCategories = [
     "dugun", "nisan", "kina", "sunnet", "bebek", "dogum", "hamile", "aile", "cocuk",
     "mezuniyet", "dis-cekim", "studyo", "portre", "moda", "konsept", "urun", "yemek",
@@ -50,7 +58,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.7,
   }));
 
-  // Ilce ana sayfalari
   const districtPaths: MetadataRoute.Sitemap = DISTRICTS.map((d) => ({
     url: `${base}/bolgeler/${d.slug}`,
     lastModified: now,
@@ -58,7 +65,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.9,
   }));
 
-  // Mahalle sayfalari (76)
   const neighborhoodPaths: MetadataRoute.Sitemap = neighborhoods.map((n) => ({
     url: `${base}/bolgeler/${n.district}/${n.slug}`,
     lastModified: now,
@@ -66,12 +72,25 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.7,
   }));
 
-  // Sanayi bolgesi sayfalari
   const industrialZonePaths: MetadataRoute.Sitemap = industrialZones.map((z) => ({
     url: `${base}/sanayi-bolgeleri/${z.slug}`,
     lastModified: now,
     changeFrequency: "monthly" as const,
     priority: 0.8,
+  }));
+
+  const blogPostPaths: MetadataRoute.Sitemap = blogPosts.map((p) => ({
+    url: `${base}/blog/${p.slug}`,
+    lastModified: new Date(p.updatedAt ?? p.publishedAt),
+    changeFrequency: "monthly" as const,
+    priority: 0.7,
+  }));
+
+  const blogCategoryPaths: MetadataRoute.Sitemap = blogCategories.map((cat) => ({
+    url: `${base}/blog/kategori/${encodeURIComponent(cat.toLocaleLowerCase("tr-TR"))}`,
+    lastModified: now,
+    changeFrequency: "weekly" as const,
+    priority: 0.5,
   }));
 
   return [
@@ -81,5 +100,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...districtPaths,
     ...neighborhoodPaths,
     ...industrialZonePaths,
+    ...blogPostPaths,
+    ...blogCategoryPaths,
   ];
 }

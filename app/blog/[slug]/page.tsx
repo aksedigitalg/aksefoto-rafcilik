@@ -2,8 +2,8 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import Image from "next/image";
 import { Clock, ArrowLeft } from "lucide-react";
-import { blogPosts, getBlogPostBySlug, getRecentBlogPosts } from "@/lib/data/blog-posts";
-import { getServiceBySlug } from "@/lib/data/services";
+import { getAllBlogPosts, getBlogPostBySlug, getRecentBlogPosts } from "@/lib/db/blog";
+import { getServiceBySlug } from "@/lib/db/services";
 import { buildMetadata } from "@/lib/seo";
 import { blogPostSchema, faqSchema } from "@/lib/schema";
 import { getBlogCoverImage } from "@/lib/data/unsplash-images";
@@ -14,13 +14,14 @@ import { RelatedServices } from "@/components/sections/RelatedServices";
 import { CTABanner } from "@/components/sections/CTABanner";
 import { formatDate } from "@/lib/utils";
 
-export function generateStaticParams() {
+export async function generateStaticParams() {
+  const blogPosts = await getAllBlogPosts();
   return blogPosts.map((p) => ({ slug: p.slug }));
 }
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
-  const post = getBlogPostBySlug(slug);
+  const post = await getBlogPostBySlug(slug);
   if (!post) return { title: "Yazı Bulunamadı" };
   return buildMetadata({
     title: post.title,
@@ -113,15 +114,18 @@ function renderInline(text: string): React.ReactNode {
 
 export default async function BlogPostPage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
-  const post = getBlogPostBySlug(slug);
+  const post = await getBlogPostBySlug(slug);
   if (!post) notFound();
 
   const path = `/blog/${post.slug}`;
-  const relatedServices =
-    post.relatedServices
-      ?.map((s) => getServiceBySlug(s))
-      .filter((s): s is NonNullable<typeof s> => Boolean(s)) ?? [];
-  const recent = getRecentBlogPosts(3).filter((p) => p.slug !== post.slug);
+  const [relatedServiceResults, recentRaw] = await Promise.all([
+    Promise.all((post.relatedServices ?? []).map((s) => getServiceBySlug(s))),
+    getRecentBlogPosts(4),
+  ]);
+  const relatedServices = relatedServiceResults.filter(
+    (s): s is NonNullable<typeof s> => Boolean(s),
+  );
+  const recent = recentRaw.filter((p) => p.slug !== post.slug).slice(0, 3);
 
   return (
     <>

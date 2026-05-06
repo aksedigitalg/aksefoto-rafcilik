@@ -24,13 +24,91 @@ export const dugunTorenServices: Service[] = [
     ],
     shortDescription:
       "Hayatınızın en özel gününü hikaye anlatan, doğal ve sanatsal karelerle ölümsüzleştiren profesyonel düğün fotoğrafçılığı.",
-    longDescription: `Düğün günü, sadece iki kişinin değil, iki ailenin ortak hatırasını oluşturduğu bir gündür. Akse Fotoğrafçılık olarak Gebze, Darıca, Çayırova ve Dilovası başta olmak üzere Kocaeli ve İstanbul Anadolu yakasında düğün fotoğrafçılığı hizmeti veriyoruz. Her çekimi belgeselci bir bakışla planlıyor, sahte poz değil, anın kendiliğinden oluşan duygusunu yakalıyoruz.
+    longDescription: `Düğün günü; hazırlık kokulu sabahtan dans pistinin son şarkısına kadar süren, geri dönüşü olmayan bir gündür. Akse Fotoğrafçılık olarak Gebze Güzeller Mahallesi'ndeki stüdyomuzdan çıkıp Darıca, Çayırova, Dilovası ve İstanbul Anadolu yakasındaki düğünlere belgeselci bir bakışla geliyoruz. "Belgeselci" derken kastımız net: ailenin gerçek tepkilerini, kayınvalidenin gözyaşını, sağdıcın kahkahasını, dedenin kısa konuşmasını yakalamak; sahte sahnelenmiş pozlara değil günün kendiliğinden akışına odaklanmak.
 
-Çekim öncesinde mekan keşfi yapıyor, ışığın saatlere göre değişimini gözlemleyerek ana sahnelerin nereden, hangi lensle çekileceğini önceden netleştiriyoruz. Gelin hazırlığı, damat hazırlığı, nikah, kokteyl ve tüm gece akışı boyunca yanınızdayız. İki fotoğrafçı + isteğe bağlı drone + video paketleriyle hiçbir an kaçırılmıyor.
+Profesyonel düğün fotoğrafçılığı tek başına bir kameranın işi değildir. Mekan keşfi, ışık takibi, kıyafet uyumu, akış planlaması, ekipman yedeklemesi, edit standardı ve teslim süresi bir arada işlediğinde "iyi düğün fotoğrafı" çıkar. Bu sayfada yaklaşımımızı, çekim akışımızı, kullandığımız ekipmanı ve sözleştiğimiz beklentileri olabildiğince açık anlatmaya çalıştık.
 
-Düzenleme aşamasında her kareye tek tek dokunuyoruz: ten tonu, beyaz dengesi, kontrast ve keskinlik için elle ayar yapıyor; düğün fotoğrafının zaman içinde solmayan, klasik ama modern bir görünüme sahip olmasını sağlıyoruz. Edit teslimi ortalama 14 gün, ham yedeğin 1 yıl saklanması standardımızdır.
+## Belgeselci yaklaşım: Sahte poz değil, gerçek anılar
 
-Profesyonel düğün albümleri için kristal kapaklı, italyan kumaş kapaklı ve klasik deri kapaklı seçenekler sunuyoruz. Save the date çekiminden after wedding'e, kına gecesinden nikah salonuna kadar düğün etrafındaki tüm çekimler tek bir stüdyodan yönetiliyor — bu, hem fiyat avantajı hem de görsel bütünlük demek.`,
+Türkiye'deki düğün fotoğrafçılığında iki ana ekol var. Birincisi klasik stüdyo poz odaklı çekim: gelin damadı duvarın önüne dizip "şimdi gül", "el ele tut", "yan dön" diyerek kareler oluşturur. İkincisi belgesel (documentary) tarz: günün kendiliğinden gelişen anlarını yakalar, müdahale minimumdur. İkisi de meşrudur, biz ikinciyi tercih ediyoruz çünkü on-yirmi yıl sonra geri dönüp baktığınızda hatırlamak istediğiniz şey poz vermiş bir karenizden çok, o gün yaşadığınız gerçek duygudur.
+
+Bu yaklaşım, fotoğrafçının görünmez olmasını gerektirir. Gelin hazırlığı sırasında odanın bir köşesinden uzun lensle çekim yapıyor, anneye düğmeleri iliklerken arka planda durup karenin ortasına girmiyoruz. Sağdıçların damatla şakalaştığı saniyeleri, çiçeği takan annenin alnındaki teri, yüzükleri uzatan halaya bakan dedenin elini kayda alıyoruz. Bunlar planlanmış pozlar değil, gerçek anlar.
+
+Tabii ki "sıfır poz" demiyoruz. Aile büyüklerinin grup karelerini (anneanne-babaanne-dede-nine düzeni), gelin-damat dış çekim seansını, yüzük-çiçek detay karelerini elbette planlı çekiyoruz. Ama bu kareler toplam fotoğrafların belki yüzde on beş-yirmisi. Geri kalan büyük çoğunluk, dokunulmamış an. Belgeselci tarzın bir başka avantajı: çocuklar ve yaşlılar daha rahat oluyor. "Şuraya geç, gül" demek özellikle yaşlı bir teyzeyi geriyor; o doğal halinde yakalanmak çok daha güzel ve gerçek bir kare çıkarıyor. Bu yüzden kameralarımız sürekli omuzda, lensimiz hep hazır.
+
+## Düğün gününüz: Saat saat akış
+
+Standart bir Türk düğünü on iki ile on dört saat sürer. Akse Fotoğrafçılık'ta tam gün paketimiz hazırlık başlangıcından düğün sonu yorgun aileyi son arabaya kadar uğurlamaya kadar uzanır. İşte tipik bir akış.
+
+### Sabah hazırlığı
+
+Çekim genelde gelin hazırlığıyla başlar. Saat 08:30-09:00 civarı kuaföre veya ev hazırlığına geliyoruz. Kuaförde detay çekimleri önce: çiçekler, ayakkabılar, yüzük, davetiye kartı, kolye, küpe — bir natürmort gibi düzenleyip kayda alıyoruz. Sonra makyaj sürecinde gelinin yüzüne yakın çekimler, anneyle el ele anlar, yüzüğün takılış anı.
+
+Damat hazırlığı paralel ekiple veya ardışık olarak çekiliyor. Hikaye paketinde iki fotoğrafçı olduğu için hazırlıklar aynı anda kayıt edilir. Kravat takma, ceket düğmeleme, sağdıçlarla kahve içme, baba-oğul el sıkışma — damat tarafında da gözyaşı çoğu zaman gelinden daha çok düşer.
+
+### Salon, nikah ve tören
+
+Salondan önce mekan keşfi yapıyoruz. Hangi yöne ışık var, kürsünün arkası nasıl, davetlilerin oturma düzeni ne — bunları on-on beş dakika içinde haritalıyoruz. Nikah anında iki açıdan eş zamanlı çekim: biri gelin-damat yüz yüze, diğeri salon arka kareler.
+
+"Evet" anının kareli kareli onlarca kare olarak geri dönmesini istiyoruz; bunun için 1/250 saniye shutter, sürekli çekim modu, sessiz elektronik shutter kullanıyoruz. Salon içinde flaş yerine yüksek ISO ve hızlı lens tercih ediyoruz; flaş çakmasının töreni bölmemesi için.
+
+Yüzük takma anı, çiçek atma, ailelerin tebriği, fotoğraf kuyruğu — hepsi sırayla. Aile büyük portresi (anneanne-babaanne-dede-nine ve gelin-damat) genelde nikahtan hemen sonra, salon dağılmadan çekiliyor. Yaşlılar yorulmadan bu kareyi alıyoruz.
+
+### Dış çekim ve kokteyl
+
+Nikahtan sonra gelin-damat dış çekim seansı, en verimli kısımlardan biri. Bayramoğlu sahili, Eskihisar feneri, Hereke kıyıları, Marmara sahil yolu — düğün konseptine göre lokasyon öneriyoruz. Altın saat (gün batımından bir saat öncesi) yumuşak ışığında otuz-kırk beş dakika gelin-damatla baş başa çekim yapıyoruz.
+
+Bu seansta belgeselci tarzdan kısmen ayrılıyoruz: klasik dış çekim pozları, sinematik yürüyüş kareleri, sosyal medya için hazır beş-altı kuvvetli kare alıyoruz. Drone uçacaksa bu saatte uçar — sahil çizgisi, gelin-damat sahil yolunda yürürken yukarıdan kareler.
+
+### Salon, dans ve son anlar
+
+Davet/yemek salonuna geçince flaş hazır: salon ışığı genelde sarı/sıcak olur, flaş ve bounce kart ile temiz ten tonu yakalıyoruz. Damatlığın ilk dansı, baba-kız dansı, pasta kesme, çiçek atma, halay — geleneksel sahnelerin hepsi.
+
+Dans pisti açılınca uzun lens elden bırakılıyor, 35mm/50mm prime lensle pistin içine giriyoruz. Burada belgeselci tarzımıza döneriz; en iyi kareler dans pistinde, terlemiş yorgun ama mutlu yüzlerden çıkar. Son şarkıyla beraber gelin-damat uğurlama, ailenin yorgun ama gülümseyen son grup karesi, gelinin annesini son kucaklayışı — bu kareler düğün albümünün son sayfasını oluşturur, çoğu zaman sezgiyle çekilen en duygusal kareler.
+
+## Gebze ve civarındaki düğün mekanlarımız
+
+Bölgenin düğün salonlarını ve dış çekim noktalarını yakından tanıyoruz; her birinin ışık koşullarını ve en iyi açılarını biliyoruz. Düğününüzün yapılacağı mekanı söylediğinizde mümkünse bir hafta öncesinden mekan keşfi yapıyoruz: ışık yönü, salon planı, dış çekim için en iyi köşeler — hepsini önceden netleştiriyoruz.
+
+Gebze tarafında Güzeller Mahallesi'ndeki yeni nesil davet salonları, Gebze sanayi bölgesindeki kurumsal etkinlik mekanları, eski Gebze çarşı içindeki klasik düğün salonları sıkça çalıştığımız yerler. Belediye nikah salonu için özel bir not: pencerelerden gelen ışık öğleden önce ideal, öğleden sonra arka kare ışıklı çıkar — buna göre planlama yapıyoruz.
+
+Darıca'da Bayramoğlu sahili düğün için bölgenin en gözde dış çekim noktası — özellikle gün batımı saatleri büyülü. Faruk Yalçın Hayvanat Bahçesi yakınındaki davet salonları, Bağlarbaşı tarafındaki orta ölçekli düğün mekanları sıkça gittiğimiz yerler arasında. Çayırova'da Şekerpınar düğün salonları sanayi yoğun bir bölgede ama içleri modern. Akse, Yeni Mahalle gibi mahallelerin düğünleri genelde ev tipi sade törenler — bu tür törenleri de aynı titizlikle çekiyoruz.
+
+Dilovası'nda düğün mekanları daha kompakt ama Diliskelesi sahil dış çekim için harika; Tavşancıl tarafının eski mahalle dokusu atmosfer çekimleri için ilginç. İstanbul Anadolu yakasında Tuzla kıyısı, Pendik sahil yolu, Kartal sahil — Gebze çıkışlı çiftlerin sıkça tercih ettiği komşu lokasyonlar. Tarihi mekanlar için Eskihisar Feneri ve çevresi nostaljik düğün konseptleri için ideal.
+
+## Ekipman: Düşük ışıkta keskin, hızlı çekim
+
+Düğün, fotoğrafçılığın en zor disiplini sayılır çünkü ışık kontrol edilemez (salon ışığı kötü, pist ışığı renkli, dış çekimde gün batıyor) ve kare kaçırılırsa geri dönüşü yok. Ekipmanımız bu zorluklara göre seçilmiş: ana gövde olarak Sony A7 IV, yedek gövde A7 III; her ikisi de düşük ışıkta gürültüsüz ve hızlı autofocus performansı sunuyor.
+
+Lens parkımız Sigma 35mm f/1.4 Art (hazırlık ve dans pisti için ana lens, geniş diyafram düşük ışıkta kurtarıcı), Sony 85mm f/1.4 GM (gelin-damat portreleri ve dış çekim için sinematik bokeh) ve Tamron 28-75mm f/2.8 (salon ve genel kareler için zoom esnekliği) ile temellendirilmiş. Salon yemek bölümünde sarı ışığı düzeltmek için Profoto A1X flaş kullanıyoruz; ayrıca kablosuz off-camera kurulumu mümkün.
+
+Açık alan dış çekimleri için DJI Mavic 3 drone ile 4K hava görüntüsü alıyoruz. Tüm kameralarda iki SD kart slotuna eş zamanlı kayıt; biri bozulursa ikincisi sağlam. Düğün sonu çift yedek alır eve dönüyoruz, asla kart üzerinde kart silmeyiz. Sigorta poliçemiz kapsamlı; ekipman çalınma/hasar durumunda çekim aksamayacak şekilde 24 saat içinde yedek temin edilir.
+
+## Albüm, klip ve dijital teslim seçenekleri
+
+Çekimden sonra ham fotoğrafları on dört gün içinde edit teslim ediyoruz; yoğun yaz aylarında bu süre yirmi bir güne uzayabilir. Edit dediğimiz: ten tonu düzeltme, beyaz dengesi kalibrasyonu, kontrast ve keskinlik dengeleme, gerekirse istenmeyen objelerin kaldırılması (dış çekimde arka planda yürüyen birisi gibi). Sosyal medya için beş-on kareyi 48 saat içinde WhatsApp'tan iletiyoruz; bu sayede düğün ertesi paylaşımlarınız beklemez.
+
+Düğün albümü seçeneklerimiz üç başlıkta toplanır. Kristal kapak modern minimalist görünüm sunar, akrilik kapak premium hissiyatla birleşir. İtalyan kumaş kapak klasik şıklık ve dokunsal sıcaklık taşır. Klasik deri kapak zamansızdır, anneanneye hediye için ideal. Ek olarak anne-baba mini albümü (20x20 cm) asıl albümün küçük versiyonu olarak Premium pakette hediyedir.
+
+Albüm sayfa sayısı otuz-altmış arası değişir; tasarımı önce dijital olarak gönderiyor, sayfa düzeni üzerinde bir-iki revizyon kabul ediyoruz, sonra baskıya gönderiyoruz. Baskı ve ciltleme süresi on dört-yirmi bir gün, yani toplamda düğünden dört-altı hafta sonra elinizde olur.
+
+Düğün hikayesi (sinematik klip) Hikaye ve Premium paketlerde dahil. Beş-on dakikalık 4K MP4 dosya artı sosyal medya için 60 saniye/30 saniye dikey ve kare versiyonlar. Müzik seçimini birlikte yapıyoruz; YouTube/Instagram telifi için lisanslı parça öneriyoruz. Tüm fotoğraflar parolalı bir online albüme yüklenir, davetlilerle link paylaşabilir, kendi favorilerini seçip yüksek çözünürlükte indirebilirler. Bu bağlantı bir yıl aktif kalır.
+
+## Şeffaf fiyatlandırma yaklaşımımız
+
+Düğün fotoğrafçılığında en sık karşılaştığımız hayal kırıklığı şu: müşteri ucuz bir paketi rezerve ediyor, ama "drone, dış çekim, klip, albüm" derken çekim öncesi fiyat iki katına çıkıyor. Biz bu yaklaşımı reddediyoruz. Web sitemizdeki üç paketimizin fiyat aralığı net: Klasik (₺18.000-25.000), Hikaye (₺28.000-38.000, en popüler), Premium (₺42.000-60.000). Aralığın altı ve üstü; düğün tarihi (yaz/kış), saat süresi, ek hizmet (kına ekleme, ek günler) ve mekan mesafesi gibi etkenlere göre değişir.
+
+Pakete dahil olan: çekim, edit, dijital teslim, online galeri, sosyal medya kareleri, USB. Ek ücret olabilen kalemler: drone (Klasik pakette opsiyonel), albüm baskısı (Klasik ve Hikaye pakette opsiyonel; Premium'da dahil), ek gün (kına/nikah salonu farklıysa), Anadolu yakası dışı düğünler için ulaşım/konaklama. İlk telefon görüşmesinde tüm bu detayları konuşur, yazılı sözleşme ile teyit ederiz. Çekim öncesi ekstra istek gelmesi durumunda yazılı eklenti yapılır; sürpriz fatura olmaz.
+
+## Düğün fotoğrafçınızı ne zaman seçmelisiniz?
+
+İdeal süre altı-dokuz ay öncesinden. Yaz sezonuna (haziran-eylül) denk düşen düğünler için bu süre dokuz-on iki aya çıkarmanızı öneriyoruz çünkü iyi düğün fotoğrafçıları sezon başında dolar. Aralık-mart arasındaki düğünler için üç-dört ay öncesinden müsaitlik kontrol etmek genelde yeter. Ama şunu unutmayın: profesyonel fotoğrafçılar hafta sonu birden fazla düğün almaz; yani aynı gün başka çift sizi geçerse boştasınız.
+
+Müsaitlik sorgulamak için bize WhatsApp'tan tarih, mekan ve paket fikrini atın, 24 saat içinde dönelim. Müsaitsek ön sözleşme ve %30 kapora ile tarihi rezerve ediyoruz; geri kalan ödeme çekim sonrası teslim ile tamamlanır.
+
+Düğün öncesi 30 dakikalık tanışma görüşmesi yapıyoruz: stüdyoda kahve içerken hayalinizdeki kareleri konuşuyor, kıyafet uyumu, lokasyon önerileri, akış planı üzerinde anlaşıyoruz. Bu görüşme ücretsiz ve bizim için de değerli; ekibimizin sizinle uyum sağlaması düğün gününün rahat geçmesi için kritik.
+
+Düğün, geri dönüşü olmayan tek bir gün. Doğru fotoğrafçı seçimi, otuz-kırk yıl sonra çocuklarınıza, torunlarınıza gösterdiğinizde gurur duyacağınız hatıra demektir. Bizimle çalışmasanız bile, düğün fotoğrafçınızı belgeselci tarz, gerçek müşteri portfolyosu ve yazılı sözleşme kriterleriyle seçin.`,
     features: [
       "İki fotoğrafçı ile çift açı çekim",
       "Drone hava çekimi opsiyonu",
@@ -129,7 +207,7 @@ Profesyonel düğün albümleri için kristal kapaklı, italyan kumaş kapaklı 
     galleryCategory: "dugun",
     metaTitle: "Gebze Düğün Fotoğrafçısı | Hikaye Anlatan Düğün Çekimi",
     metaDescription:
-      "Gebze, Darıca, Çayırova, Dilovası düğün fotoğrafçısı. Belgeselci yaklaşım, drone, sinematik klip, 14 günde edit teslim. Hemen ara: 0533 241 75 22",
+      "Gebze, Darıca, Çayırova, Dilovası düğün fotoğrafçısı. Belgeselci yaklaşım, drone, sinematik klip, 14 günde edit teslim. Hemen ara: 0539 633 03 58",
   },
 
   {
@@ -233,7 +311,7 @@ Standart düğün klibi süremiz 5 dakika; Premium pakette 10 dakikalık genişl
     galleryCategory: "video",
     metaTitle: "Gebze Düğün Hikayesi | Sinematik Düğün Klibi Çekimi",
     metaDescription:
-      "Gebze sinematik düğün klibi. 4K kamera, gimbal, drone, kablosuz mikrofon. 5-10 dk düğün hikayesi + sosyal medya teaser. Lisanslı müzik. 0533 241 75 22",
+      "Gebze sinematik düğün klibi. 4K kamera, gimbal, drone, kablosuz mikrofon. 5-10 dk düğün hikayesi + sosyal medya teaser. Lisanslı müzik. 0539 633 03 58",
   },
 
   {
@@ -330,7 +408,7 @@ Teslim süresi 4 haftadır. Klip MP4 formatında, USB veya dijital indirme linki
     galleryCategory: "video",
     metaTitle: "Gebze Düğün Klibi | Klasik Düğün Videosu Çekimi",
     metaDescription:
-      "Gebze düğün klibi çekimi. Salon ve tam gün paketler, 4K seçeneği, yaka mikrofonu, 60 sn teaser hediye. Hızlı teslim. Bilgi: 0533 241 75 22",
+      "Gebze düğün klibi çekimi. Salon ve tam gün paketler, 4K seçeneği, yaka mikrofonu, 60 sn teaser hediye. Hızlı teslim. Bilgi: 0539 633 03 58",
   },
 
   {
@@ -445,7 +523,7 @@ Edit teslim süremiz 7-14 gündür; sosyal medya için en başarılı 5-10 karey
     galleryCategory: "dugun",
     metaTitle: "Gebze Nikah Fotoğrafçısı | Belediye Nikahı Çekimi",
     metaDescription:
-      "Gebze, Darıca, Çayırova belediye nikahı fotoğrafçısı. Sade, doğal, hızlı teslim. 90 dk paketten genişletilmiş nikah+kokteyl paketine. 0533 241 75 22",
+      "Gebze, Darıca, Çayırova belediye nikahı fotoğrafçısı. Sade, doğal, hızlı teslim. 90 dk paketten genişletilmiş nikah+kokteyl paketine. 0539 633 03 58",
   },
 
   {
@@ -559,7 +637,7 @@ Edit teslim süremiz 7-10 gündür; sosyal medya paylaşımı için ilk 5-10 kar
     galleryCategory: "nisan",
     metaTitle: "Gebze Nişan Fotoğrafçısı | Profesyonel Nişan Çekimi",
     metaDescription:
-      "Gebze, Darıca, Çayırova nişan fotoğrafçısı. Yüzük takma detayı, aile grup kareleri, tören sonrası dış çekim. Hızlı teslim. 0533 241 75 22",
+      "Gebze, Darıca, Çayırova nişan fotoğrafçısı. Yüzük takma detayı, aile grup kareleri, tören sonrası dış çekim. Hızlı teslim. 0539 633 03 58",
   },
 
   {
@@ -673,7 +751,7 @@ Edit teslim süremiz 7 gündür. Sosyal medya için 3-5 kareyi 24 saat içinde s
     galleryCategory: "nisan",
     metaTitle: "Gebze Söz Fotoğraf Çekimi | Samimi Söz Töreni Çekimi",
     metaDescription:
-      "Gebze söz çekimi. Ev odaklı, sade ve samimi yaklaşım. Söz tatlısı, yüzük detayı, aile kareleri. Hızlı teslim. Bilgi: 0533 241 75 22",
+      "Gebze söz çekimi. Ev odaklı, sade ve samimi yaklaşım. Söz tatlısı, yüzük detayı, aile kareleri. Hızlı teslim. Bilgi: 0539 633 03 58",
   },
 
   {
@@ -782,7 +860,7 @@ Edit teslim süremiz 10-14 gündür; sosyal medya için 5-10 kareyi 48 saat içi
     galleryCategory: "kina",
     metaTitle: "Gebze Kına Fotoğraf Çekimi | Geleneksel Kına Gecesi Çekimi",
     metaDescription:
-      "Gebze, Darıca, Çayırova kına gecesi fotoğrafçısı. Bindallı detayları, kına yakma, dans kareleri, 3 dk kına klibi. Hızlı teslim. 0533 241 75 22",
+      "Gebze, Darıca, Çayırova kına gecesi fotoğrafçısı. Bindallı detayları, kına yakma, dans kareleri, 3 dk kına klibi. Hızlı teslim. 0539 633 03 58",
   },
 
   {
@@ -896,7 +974,7 @@ Edit teslim süremiz 10-14 gündür. Sünnet çekimi tek başına alınabildiği
     galleryCategory: "sunnet",
     metaTitle: "Gebze Sünnet Fotoğraf Çekimi | Sünnet Düğünü Çekimi",
     metaDescription:
-      "Gebze sünnet fotoğrafçısı. Stüdyo poz, konvoy, salon kapsam ve sünnet klibi. Çocuk odaklı sabırlı yaklaşım. 0533 241 75 22",
+      "Gebze sünnet fotoğrafçısı. Stüdyo poz, konvoy, salon kapsam ve sünnet klibi. Çocuk odaklı sabırlı yaklaşım. 0539 633 03 58",
   },
 
   {
@@ -1003,7 +1081,7 @@ Konvoy çekimi tek başına 30-45 dakikalık bir kapsam olduğu için sünnet d�
     galleryCategory: "sunnet",
     metaTitle: "Gebze Sünnet Konvoy Çekimi | Sinematik Konvoy Videosu",
     metaDescription:
-      "Gebze sünnet konvoy çekimi. Motorsiklet takip, drone, gimbal stabilizatör. Sinematik klip + foto. Hızlı teslim. 0533 241 75 22",
+      "Gebze sünnet konvoy çekimi. Motorsiklet takip, drone, gimbal stabilizatör. Sinematik klip + foto. Hızlı teslim. 0539 633 03 58",
   },
 
   {
@@ -1117,7 +1195,7 @@ Edit teslim süremiz 7 gündür; sosyal medya için 5 kareyi 24 saatte iletiyoru
     galleryCategory: "nisan",
     metaTitle: "Gebze Evlilik Teklifi Fotoğraf Çekimi | Sürpriz Çekim",
     metaDescription:
-      "Gebze, Darıca, Bayramoğlu evlilik teklifi sürpriz çekimi. Telefoto lens, gizli pozisyon, teklif sonrası çift seansı. Hızlı teslim. 0533 241 75 22",
+      "Gebze, Darıca, Bayramoğlu evlilik teklifi sürpriz çekimi. Telefoto lens, gizli pozisyon, teklif sonrası çift seansı. Hızlı teslim. 0539 633 03 58",
   },
 
   {
@@ -1234,7 +1312,7 @@ Edit teslim süremiz 10-14 gündür. Save the Date paketini alan çiftler düğ�
     galleryCategory: "nisan",
     metaTitle: "Gebze Save the Date Çekimi | Düğün Öncesi Romantik Çekim",
     metaDescription:
-      "Gebze save the date çekimi. Bayramoğlu, Eskihisar, Darıca sahili. Drone, video, davetiye tasarım önerileri. Hızlı teslim. 0533 241 75 22",
+      "Gebze save the date çekimi. Bayramoğlu, Eskihisar, Darıca sahili. Drone, video, davetiye tasarım önerileri. Hızlı teslim. 0539 633 03 58",
   },
 
   {
@@ -1343,7 +1421,7 @@ Sanatsal yaklaşım ön planda olduğu için renk koreksiyonu ve bazen sanat edi
     galleryCategory: "dis-cekim",
     metaTitle: "Gebze Trash the Dress Çekimi | Sanatsal Düğün Sonrası Çekim",
     metaDescription:
-      "Gebze trash the dress çekimi. Bayramoğlu, Eskihisar, Hereke kıyıları. Sanatsal yaklaşım, drone, sinematik klip. 0533 241 75 22",
+      "Gebze trash the dress çekimi. Bayramoğlu, Eskihisar, Hereke kıyıları. Sanatsal yaklaşım, drone, sinematik klip. 0539 633 03 58",
   },
 
   {
@@ -1452,7 +1530,7 @@ Trash the Dress'ten farkı: after wedding'de gelinlik hala kullanılabilir kalı
     galleryCategory: "dis-cekim",
     metaTitle: "Gebze After Wedding Çekimi | Düğün Sonrası Doğal Kareler",
     metaDescription:
-      "Gebze after wedding çekimi. Düğünden sonra rahat ve doğal seans. Bayramoğlu, Adalar, kırsal mekanlar. Drone, klip. 0533 241 75 22",
+      "Gebze after wedding çekimi. Düğünden sonra rahat ve doğal seans. Bayramoğlu, Adalar, kırsal mekanlar. Drone, klip. 0539 633 03 58",
   },
 
   {
@@ -1562,6 +1640,6 @@ Dış çekim, düğün paketine dahil olduğunda standart 30-45 dakikalık bir s
     galleryCategory: "dis-cekim",
     metaTitle: "Gebze Dış Çekim Fotoğraf | Bayramoğlu, Eskihisar Düğün Çekimi",
     metaDescription:
-      "Gebze, Darıca, Bayramoğlu dış çekim fotoğraf. Altın saat, drone, çoklu mekan. Romantik atmosfer + sanatsal kareler. 0533 241 75 22",
+      "Gebze, Darıca, Bayramoğlu dış çekim fotoğraf. Altın saat, drone, çoklu mekan. Romantik atmosfer + sanatsal kareler. 0539 633 03 58",
   },
 ];

@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
-import { services, SERVICE_CATEGORIES } from "@/lib/data/services";
+import { getAllServices } from "@/lib/db/services";
+import { SERVICE_CATEGORIES } from "@/lib/data/services";
 import { buildMetadata } from "@/lib/seo";
 import { BUSINESS } from "@/lib/constants";
 import { BreadcrumbNav } from "@/components/seo/BreadcrumbNav";
@@ -12,7 +13,8 @@ export const metadata = buildMetadata({
   path: "/hizmetler",
 });
 
-export default function ServicesIndexPage() {
+export default async function ServicesIndexPage() {
+  const services = await getAllServices();
   return (
     <div className="mx-auto max-w-7xl px-4 py-12 md:px-6 lg:px-8">
       <BreadcrumbNav items={[{ name: "Hizmetler", href: "/hizmetler" }]} />

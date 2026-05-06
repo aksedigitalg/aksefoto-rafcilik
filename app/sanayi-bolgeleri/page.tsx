@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { Building2, Factory, Shield, Award } from "lucide-react";
-import { industrialZones } from "@/lib/data/industrial-zones";
+import { getAllIndustrialZones } from "@/lib/db/industrial-zones";
 import { buildMetadata } from "@/lib/seo";
 import { BUSINESS } from "@/lib/constants";
 import { BreadcrumbNav } from "@/components/seo/BreadcrumbNav";
@@ -39,7 +39,8 @@ const B2B_ADVANTAGES = [
   },
 ];
 
-export default function IndustrialZonesIndexPage() {
+export default async function IndustrialZonesIndexPage() {
+  const industrialZones = await getAllIndustrialZones();
   return (
     <div className="mx-auto max-w-7xl px-4 py-12 md:px-6 lg:px-8">
       <BreadcrumbNav items={[{ name: "Sanayi Bölgeleri", href: "/sanayi-bolgeleri" }]} />
