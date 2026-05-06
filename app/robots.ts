@@ -7,7 +7,10 @@ export default function robots(): MetadataRoute.Robots {
       {
         userAgent: "*",
         allow: "/",
-        disallow: ["/api/", "/admin/", "/_next/"],
+        // /_next/ KAPATMAYIN: Googlebot CSS/JS/Image asset'lerini fetch
+        // edemezse Mobile Friendly + Core Web Vitals olcumu bozulur ve
+        // siralama dusebilir. Sadece /api/ ve /admin/ kapatiyoruz.
+        disallow: ["/api/", "/admin/"],
       },
       {
         userAgent: "GPTBot",
@@ -15,6 +18,10 @@ export default function robots(): MetadataRoute.Robots {
       },
       {
         userAgent: "CCBot",
+        disallow: "/",
+      },
+      {
+        userAgent: "Google-Extended",
         disallow: "/",
       },
     ],

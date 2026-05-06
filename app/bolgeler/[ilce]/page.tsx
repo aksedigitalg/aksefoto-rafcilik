@@ -1,9 +1,9 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { MapPin, Camera } from "lucide-react";
-import { DISTRICTS } from "@/lib/constants";
-import { getNeighborhoodsByDistrict } from "@/lib/data/neighborhoods";
-import { services } from "@/lib/data/services";
+import { DISTRICTS, type DistrictSlug } from "@/lib/constants";
+import { getNeighborhoodsByDistrict } from "@/lib/db/neighborhoods";
+import { getAllServices } from "@/lib/db/services";
 import { buildMetadata, serviceLocationDescription } from "@/lib/seo";
 import { BreadcrumbNav } from "@/components/seo/BreadcrumbNav";
 import { CTABanner } from "@/components/sections/CTABanner";
@@ -52,7 +52,10 @@ export default async function DistrictPage({ params }: { params: Promise<{ ilce:
   const district = DISTRICTS.find((d) => d.slug === ilce);
   if (!district) notFound();
 
-  const list = getNeighborhoodsByDistrict(district.slug);
+  const [list, services] = await Promise.all([
+    getNeighborhoodsByDistrict(district.slug as DistrictSlug),
+    getAllServices(),
+  ]);
   const popularServices = POPULAR_SERVICE_SLUGS
     .map((slug) => services.find((s) => s.slug === slug))
     .filter((s): s is NonNullable<typeof s> => Boolean(s));

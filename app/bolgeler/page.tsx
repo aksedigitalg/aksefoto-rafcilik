@@ -1,8 +1,8 @@
 import Link from "next/link";
 import { MapPin, Building2, Camera } from "lucide-react";
 import { DISTRICTS, BUSINESS } from "@/lib/constants";
-import { neighborhoods } from "@/lib/data/neighborhoods";
-import { industrialZones } from "@/lib/data/industrial-zones";
+import { getAllNeighborhoods } from "@/lib/db/neighborhoods";
+import { getAllIndustrialZones } from "@/lib/db/industrial-zones";
 import { buildMetadata } from "@/lib/seo";
 import { BreadcrumbNav } from "@/components/seo/BreadcrumbNav";
 import { CTABanner } from "@/components/sections/CTABanner";
@@ -13,7 +13,11 @@ export const metadata = buildMetadata({
   path: "/bolgeler",
 });
 
-export default function RegionsIndexPage() {
+export default async function RegionsIndexPage() {
+  const [neighborhoods, industrialZones] = await Promise.all([
+    getAllNeighborhoods(),
+    getAllIndustrialZones(),
+  ]);
   return (
     <div className="mx-auto max-w-7xl px-4 py-12 md:px-6 lg:px-8">
       <BreadcrumbNav items={[{ name: "Bölgeler", href: "/bolgeler" }]} />

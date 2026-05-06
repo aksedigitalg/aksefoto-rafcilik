@@ -99,8 +99,8 @@ Açılış: `http://localhost:3000`
 export const BUSINESS = {
   name: "Akse Fotoğrafçılık",
   legalName: "Akse Fotoğrafçılık",
-  phone: "+905332417522",
-  phoneDisplay: "0533 241 75 22",
+  phone: "+905396330358",
+  phoneDisplay: "0539 633 03 58",
   street: "Güzeller Mahallesi, 927. Sk. No:6-B",
   district: "Gebze",
   city: "Kocaeli",

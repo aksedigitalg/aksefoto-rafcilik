@@ -129,12 +129,23 @@ export default function HomePage() {
                   <dd className="font-display text-2xl font-semibold md:text-3xl">4 İlçe</dd>
                 </div>
                 <div>
-                  <dt className="text-xs font-medium uppercase tracking-wider text-muted-foreground">
-                    Google Puanı
-                  </dt>
-                  <dd className="font-display text-2xl font-semibold md:text-3xl">
-                    {BUSINESS.stats.googleRating}/5
-                  </dd>
+                  {BUSINESS.stats.googleReviewCount > 0 && BUSINESS.stats.googleRating > 0 ? (
+                    <>
+                      <dt className="text-xs font-medium uppercase tracking-wider text-muted-foreground">
+                        Google Puanı
+                      </dt>
+                      <dd className="font-display text-2xl font-semibold md:text-3xl">
+                        {BUSINESS.stats.googleRating}/5
+                      </dd>
+                    </>
+                  ) : (
+                    <>
+                      <dt className="text-xs font-medium uppercase tracking-wider text-muted-foreground">
+                        Sözleşme
+                      </dt>
+                      <dd className="font-display text-2xl font-semibold md:text-3xl">Yazılı</dd>
+                    </>
+                  )}
                 </div>
               </dl>
             </div>

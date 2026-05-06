@@ -15,10 +15,10 @@ export const BUSINESS = {
   founded: "2025",
 
   // ----- Iletisim -----
-  phone: "+905332417522",
-  phoneDisplay: "0533 241 75 22",
-  whatsapp: "+905332417522",
-  whatsappDisplay: "0533 241 75 22",
+  phone: "+905396330358",
+  phoneDisplay: "0539 633 03 58",
+  whatsapp: "+905396330358",
+  whatsappDisplay: "0539 633 03 58",
   email: "info@aksedigital.com",
 
   // ----- Adres -----
@@ -47,10 +47,12 @@ export const BUSINESS = {
 
   // ----- Sosyal Medya -----
   social: {
-    instagram: "https://instagram.com/aksefotografcilik",
-    facebook: "",
-    youtube: "",
-    tiktok: "",
+    instagram: "https://instagram.com/aksefotograf",
+    facebook: "https://www.facebook.com/aksefotograf",
+    youtube: "https://www.youtube.com/@aksefotograf",
+    tiktok: "https://www.tiktok.com/@aksefotograf",
+    twitter: "https://x.com/aksefotograf",
+    linkedin: "https://www.linkedin.com/in/aksefotograf/",
     pinterest: "",
     googleBusiness: "",
   },
@@ -70,17 +72,24 @@ export const BUSINESS = {
 
   /**
    * Trust istatistikleri.
-   * 2025 kurulusumuz oldugu icin sayilar mutevazi tutuldu — gercek rakamlar
-   * bu degerlerin uzerine ciktikca bu dosyayi guncelleyin.
-   * Google'in goruntuledigi yorum sayisinin gercege uymasi onemlidir; abartili sayilar
-   * "spammy" sinyali olarak algilanip siralamayi dusurur.
+   *
+   * 2025 KURULUSUMUZ OLDUGU ICIN SADECE GERCEK + DOGRULANABILIR DEGERLER:
+   * - yearsOfExperience: 1 (gercek, 2025 kurulus)
+   * - deliveryDays: 14 (taahhut)
+   *
+   * GBP onayi + gercek yorumlar geldikce asagidaki degerleri GERCEK rakamlarla
+   * doldurun. ASLA tahmin / abartili sayi koymayin — Google review schema'da
+   * dogrulanamayan rating verirseniz manuel ceza alirsiniz (Rich Results politikasi).
+   *
+   * googleReviewCount > 0 oldugunda schema'ya aggregateRating dahil edilir
+   * (lib/schema.ts icinde kosullu).
    */
   stats: {
-    yearsOfExperience: 1, // Akse Fotograf 2025'te kuruldu
-    happyCouples: 50,
-    photoshoots: 200,
-    googleRating: 5.0,
-    googleReviewCount: 12,
+    yearsOfExperience: 1,
+    happyCouples: 0,
+    photoshoots: 0,
+    googleRating: 0,
+    googleReviewCount: 0,
     deliveryDays: 14,
   },
 } as const;
