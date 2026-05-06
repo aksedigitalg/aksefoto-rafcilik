@@ -15,6 +15,7 @@
     "seed": "tsx scripts/seed-supabase.ts",
     "db:setup": "npm run db:migrate && npm run seed",
     "admin:create": "tsx scripts/create-admin.ts",
+    "seed:settings": "tsx scripts/seed-site-settings.ts",
     "supabase:types": "echo 'supabase login && supabase gen types typescript --project-id <YOUR_PROJECT_ID> --schema public > lib/supabase/types.gen.ts'"
   },
   "dependencies": {
