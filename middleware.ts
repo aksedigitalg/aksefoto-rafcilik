@@ -1,8 +1,8 @@
-import type { NextRequest } from "next/server";
+﻿import type { NextRequest } from "next/server";
 import { updateSession } from "@/lib/supabase/middleware";
 
 /**
- * Root middleware: Supabase auth session refresh + /admin/* gate.
+ * Root middleware: Supabase auth session refresh + /c1907d/* gate.
  * Static asset'ler ve _next/* bypass edilir (matcher).
  */
 export async function middleware(request: NextRequest) {

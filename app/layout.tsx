@@ -7,6 +7,7 @@ import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import { WhatsAppFloat } from "@/components/floating/WhatsAppFloat";
 import { PhoneFloat } from "@/components/floating/PhoneFloat";
+import { SiteFrame } from "@/components/layout/SiteFrame";
 import "./globals.css";
 
 // Google Sans, Google Fonts CDN'inde public olarak sunulmuyor (yalnizca Google
@@ -118,13 +119,17 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         >
           İçeriğe geç
         </a>
-        <Header />
+        <SiteFrame>
+          <Header />
+        </SiteFrame>
         <main id="main" className="min-h-[60vh]">
           {children}
         </main>
-        <Footer />
-        <WhatsAppFloat />
-        <PhoneFloat />
+        <SiteFrame>
+          <Footer />
+          <WhatsAppFloat />
+          <PhoneFloat />
+        </SiteFrame>
 
         {/* Google Analytics 4 */}
         {gaId ? (

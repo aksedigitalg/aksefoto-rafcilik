@@ -1,4 +1,4 @@
-/**
+﻿/**
  * Supabase seed script.
  *
  * Mevcut lib/data/*.ts dosyalarini Supabase Postgres'e push eder.
@@ -273,7 +273,7 @@ async function main() {
   console.log(
     "     SQL Editor: insert into admin_profiles (user_id, role) values ('<user_id>', 'admin');",
   );
-  console.log("  3. /admin/login adresinden giris yap");
+  console.log("  3. /c1907d/login adresinden giris yap");
 }
 
 main().catch((err) => {

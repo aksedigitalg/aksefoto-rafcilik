@@ -1,4 +1,4 @@
-import type { MetadataRoute } from "next";
+﻿import type { MetadataRoute } from "next";
 import { BUSINESS } from "@/lib/constants";
 
 export default function robots(): MetadataRoute.Robots {
@@ -8,9 +8,11 @@ export default function robots(): MetadataRoute.Robots {
         userAgent: "*",
         allow: "/",
         // /_next/ KAPATMAYIN: Googlebot CSS/JS/Image asset'lerini fetch
-        // edemezse Mobile Friendly + Core Web Vitals olcumu bozulur ve
-        // siralama dusebilir. Sadece /api/ ve /admin/ kapatiyoruz.
-        disallow: ["/api/", "/admin/"],
+        // edemezse Mobile Friendly + Core Web Vitals olcumu bozulur.
+        // Admin URL'i (gizli /c1907d) BURAYA YAZMA — robots.txt public,
+        // gizli URL ifsa olur. Admin sayfalari zaten layout'ta
+        // metadata.robots = { index:false, follow:false } ile blok.
+        disallow: ["/api/"],
       },
       {
         userAgent: "GPTBot",

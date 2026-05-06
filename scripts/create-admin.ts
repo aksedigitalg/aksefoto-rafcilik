@@ -1,4 +1,4 @@
-/**
+﻿/**
  * Admin user olusturucu.
  *
  * - Supabase Auth Admin API ile yeni user create (auto-confirm)
@@ -90,8 +90,8 @@ async function main() {
   console.log(`  Sifre   : ${password}`);
   console.log(`  User ID : ${userId}`);
   console.log("=".repeat(60));
-  console.log("\nGiris: https://aksefotograf.com/admin/login");
-  console.log("       (local: http://localhost:3000/admin/login)\n");
+  console.log("\nGiris: https://aksefotograf.com/c1907d/login");
+  console.log("       (local: http://localhost:3000/c1907d/login)\n");
   console.log("⚠️  Sifreyi guvenli bir yere kaydet. Degistirmek icin:");
   console.log("    Supabase Dashboard -> Authentication -> Users -> ... menu -> Reset");
 }

@@ -9,14 +9,14 @@ const nextConfig: NextConfig = {
     deviceSizes: [360, 480, 640, 750, 828, 1080, 1200, 1920, 2048],
     imageSizes: [16, 32, 48, 64, 96, 128, 256, 384],
     remotePatterns: [
-      {
-        protocol: "https",
-        hostname: "images.unsplash.com",
-      },
-      {
-        protocol: "https",
-        hostname: "res.cloudinary.com",
-      },
+      { protocol: "https", hostname: "images.unsplash.com" },
+      { protocol: "https", hostname: "res.cloudinary.com" },
+      // Cloudflare R2 — custom CDN domain
+      { protocol: "https", hostname: "cdn.aksefotograf.com" },
+      // R2 default public bucket domain (custom domain DNS yapılana kadar fallback)
+      { protocol: "https", hostname: "*.r2.dev" },
+      // Supabase Storage public URL
+      { protocol: "https", hostname: "*.supabase.co" },
     ],
   },
   experimental: {
