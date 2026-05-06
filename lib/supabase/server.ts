@@ -62,7 +62,11 @@ export async function createSupabaseServerClient() {
  * ile korunan select sorgulari).
  */
 export function createSupabaseAnonReadClient() {
-  const { url, anonKey } = getEnv();
+  // Env yoksa null dondur — fetcher'lar bu durumda bos array dondurmeli.
+  // Build sirasinda Vercel preview env'leri eksik olabilir; throw etmeyelim.
+  const url = process.env.NEXT_PUBLIC_SUPABASE_URL;
+  const anonKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
+  if (!url || !anonKey) return null;
   return createServerClient<Database>(url, anonKey, {
     cookies: {
       getAll() {

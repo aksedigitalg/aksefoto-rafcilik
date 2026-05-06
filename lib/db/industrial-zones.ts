@@ -26,6 +26,7 @@ function mapZone(row: IndustrialZoneRow, faqs: FAQ[]): IndustrialZone {
 export const getAllIndustrialZones = unstable_cache(
   async (): Promise<IndustrialZone[]> => {
     const supabase = createSupabaseAnonReadClient();
+    if (!supabase) return [];
 
     const result = await supabase
       .from("industrial_zones")
@@ -64,6 +65,7 @@ export const getAllIndustrialZones = unstable_cache(
 export const getIndustrialZoneBySlug = unstable_cache(
   async (slug: string): Promise<IndustrialZone | null> => {
     const supabase = createSupabaseAnonReadClient();
+    if (!supabase) return null;
 
     const result = await supabase
       .from("industrial_zones")

@@ -35,6 +35,7 @@ function mapPost(row: BlogPostRow, faqs: FAQ[]): BlogPost {
 export const getAllBlogPosts = unstable_cache(
   async (): Promise<BlogPost[]> => {
     const supabase = createSupabaseAnonReadClient();
+    if (!supabase) return [];
 
     const result = await supabase
       .from("blog_posts")
@@ -74,6 +75,7 @@ export const getAllBlogPosts = unstable_cache(
 export const getBlogPostBySlug = unstable_cache(
   async (slug: string): Promise<BlogPost | null> => {
     const supabase = createSupabaseAnonReadClient();
+    if (!supabase) return null;
 
     const result = await supabase
       .from("blog_posts")

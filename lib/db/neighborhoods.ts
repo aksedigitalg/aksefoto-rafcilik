@@ -38,6 +38,7 @@ function mapNeighborhood(row: NeighborhoodRow, locations: PhotoshootLocation[]):
 export const getAllNeighborhoods = unstable_cache(
   async (): Promise<Neighborhood[]> => {
     const supabase = createSupabaseAnonReadClient();
+    if (!supabase) return [];
 
     const result = await supabase
       .from("neighborhoods")
@@ -76,6 +77,7 @@ export const getAllNeighborhoods = unstable_cache(
 export const getNeighborhoodBySlug = unstable_cache(
   async (slug: string, district?: DistrictSlug): Promise<Neighborhood | null> => {
     const supabase = createSupabaseAnonReadClient();
+    if (!supabase) return null;
 
     let query = supabase
       .from("neighborhoods")

@@ -61,6 +61,7 @@ function mapService(
 export const getAllServices = unstable_cache(
   async (): Promise<Service[]> => {
     const supabase = createSupabaseAnonReadClient();
+    if (!supabase) return [];
 
     const sResult = await supabase
       .from("services")
@@ -114,6 +115,7 @@ export const getAllServices = unstable_cache(
 export const getServiceBySlug = unstable_cache(
   async (slug: string): Promise<Service | null> => {
     const supabase = createSupabaseAnonReadClient();
+    if (!supabase) return null;
 
     const sResult = await supabase
       .from("services")

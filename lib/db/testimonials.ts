@@ -23,6 +23,7 @@ function mapTestimonial(row: TestimonialRow): Testimonial {
 export const getApprovedTestimonials = unstable_cache(
   async (): Promise<Testimonial[]> => {
     const supabase = createSupabaseAnonReadClient();
+    if (!supabase) return [];
     const result = await supabase
       .from("testimonials")
       .select("*")
@@ -42,6 +43,7 @@ export const getApprovedTestimonials = unstable_cache(
 
 export async function getTestimonialsByService(serviceSlug: string): Promise<Testimonial[]> {
   const supabase = createSupabaseAnonReadClient();
+  if (!supabase) return [];
   const result = await supabase
     .from("testimonials")
     .select("*")
@@ -55,6 +57,7 @@ export async function getTestimonialsByService(serviceSlug: string): Promise<Tes
 
 export async function getTestimonialsByDistrict(district: string): Promise<Testimonial[]> {
   const supabase = createSupabaseAnonReadClient();
+  if (!supabase) return [];
   const result = await supabase
     .from("testimonials")
     .select("*")
@@ -82,6 +85,7 @@ export async function getTestimonialsAggregate(): Promise<{
   averageRating: number;
 }> {
   const supabase = createSupabaseAnonReadClient();
+  if (!supabase) return { count: 0, averageRating: 0 };
   const result = await supabase
     .from("testimonials")
     .select("rating")
