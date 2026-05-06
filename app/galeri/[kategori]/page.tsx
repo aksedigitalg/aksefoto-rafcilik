@@ -2,7 +2,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Camera, ArrowRight } from "lucide-react";
 import { GALLERY_CATEGORIES } from "@/lib/data/gallery-categories";
-import { getServiceBySlug } from "@/lib/data/services";
+import { getServiceBySlug } from "@/lib/db/services";
 import { buildMetadata } from "@/lib/seo";
 import { BreadcrumbNav } from "@/components/seo/BreadcrumbNav";
 import { CTABanner } from "@/components/sections/CTABanner";
@@ -31,7 +31,7 @@ export default async function GalleryCategoryPage({
   const cat = GALLERY_CATEGORIES.find((c) => c.slug === kategori);
   if (!cat) notFound();
 
-  const relatedService = cat.serviceSlug ? getServiceBySlug(cat.serviceSlug) : undefined;
+  const relatedService = cat.serviceSlug ? await getServiceBySlug(cat.serviceSlug) : null;
 
   // 16 yer tutucu — gerçek görseller eklendiğinde bu yerine veri kaynağı kullanılır
   const placeholders = Array.from({ length: 16 }, (_, i) => i);

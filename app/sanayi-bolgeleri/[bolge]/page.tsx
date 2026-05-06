@@ -1,8 +1,8 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { Phone, MessageCircle, Check, Shield } from "lucide-react";
-import { industrialZones, getIndustrialZoneBySlug } from "@/lib/data/industrial-zones";
-import { getServiceBySlug } from "@/lib/data/services";
+import { getAllIndustrialZones, getIndustrialZoneBySlug } from "@/lib/db/industrial-zones";
+import { getServiceBySlug } from "@/lib/db/services";
 import { BUSINESS, getPhoneLink, getWhatsAppLink } from "@/lib/constants";
 import { buildMetadata } from "@/lib/seo";
 import { faqSchema } from "@/lib/schema";
@@ -13,13 +13,14 @@ import { CTABanner } from "@/components/sections/CTABanner";
 import { FAQAccordion } from "@/components/sections/FAQAccordion";
 import { ContactForm } from "@/components/forms/ContactForm";
 
-export function generateStaticParams() {
-  return industrialZones.map((z) => ({ bolge: z.slug }));
+export async function generateStaticParams() {
+  const zones = await getAllIndustrialZones();
+  return zones.map((z) => ({ bolge: z.slug }));
 }
 
 export async function generateMetadata({ params }: { params: Promise<{ bolge: string }> }) {
   const { bolge } = await params;
-  const zone = getIndustrialZoneBySlug(bolge);
+  const zone = await getIndustrialZoneBySlug(bolge);
   if (!zone) return { title: "Sayfa Bulunamadı" };
   return buildMetadata({
     title: `${zone.name} Fotoğrafçı | B2B Fabrika ve Tanıtım Çekimi`,
@@ -53,11 +54,14 @@ export default async function IndustrialZonePage({
   params: Promise<{ bolge: string }>;
 }) {
   const { bolge } = await params;
-  const zone = getIndustrialZoneBySlug(bolge);
+  const zone = await getIndustrialZoneBySlug(bolge);
   if (!zone) notFound();
 
   const path = `/sanayi-bolgeleri/${zone.slug}`;
-  const relatedServices = B2B_RELATED_SERVICES.map((slug) => getServiceBySlug(slug)).filter(
+  const relatedServiceResults = await Promise.all(
+    B2B_RELATED_SERVICES.map((slug) => getServiceBySlug(slug)),
+  );
+  const relatedServices = relatedServiceResults.filter(
     (s): s is NonNullable<typeof s> => Boolean(s),
   );
 

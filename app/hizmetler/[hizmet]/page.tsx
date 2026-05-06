@@ -2,7 +2,8 @@ import Link from "next/link";
 import Image from "next/image";
 import { notFound } from "next/navigation";
 import { Phone, MessageCircle, Check, MapPin } from "lucide-react";
-import { services, getServiceBySlug, getRelatedServices } from "@/lib/data/services";
+import { getAllServices, getServiceBySlug, getRelatedServices } from "@/lib/db/services";
+import { getApprovedTestimonials } from "@/lib/db/testimonials";
 import { BUSINESS, DISTRICTS, getPhoneLink, getWhatsAppLink } from "@/lib/constants";
 import { buildMetadata } from "@/lib/seo";
 import { serviceSchema, faqSchema } from "@/lib/schema";
@@ -16,16 +17,16 @@ import { ProcessSteps } from "@/components/sections/ProcessSteps";
 import { TestimonialSlider } from "@/components/sections/TestimonialSlider";
 import { RelatedServices } from "@/components/sections/RelatedServices";
 import { CTABanner } from "@/components/sections/CTABanner";
-import { testimonials } from "@/lib/data/testimonials";
 
 // Statik dynamic route — tum hizmet slug'larini build time'da uretir
-export function generateStaticParams() {
+export async function generateStaticParams() {
+  const services = await getAllServices();
   return services.map((s) => ({ hizmet: s.slug }));
 }
 
 export async function generateMetadata({ params }: { params: Promise<{ hizmet: string }> }) {
   const { hizmet } = await params;
-  const service = getServiceBySlug(hizmet);
+  const service = await getServiceBySlug(hizmet);
   if (!service) return { title: "Sayfa Bulunamadı" };
   return buildMetadata({
     title: service.metaTitle || `${service.name}`,
@@ -37,14 +38,17 @@ export async function generateMetadata({ params }: { params: Promise<{ hizmet: s
 
 export default async function ServicePage({ params }: { params: Promise<{ hizmet: string }> }) {
   const { hizmet } = await params;
-  const service = getServiceBySlug(hizmet);
+  const service = await getServiceBySlug(hizmet);
   if (!service) notFound();
 
   const path = `/hizmetler/${service.slug}`;
-  const related = getRelatedServices(service.slug, 4);
+  const [related, allTestimonials] = await Promise.all([
+    getRelatedServices(service.slug, 4),
+    getApprovedTestimonials(),
+  ]);
   const firstWord = service.name.toLocaleLowerCase("tr-TR").split(" ")[0] ?? "";
   const serviceTestimonials = firstWord
-    ? testimonials
+    ? allTestimonials
         .filter((t) => t.service.toLocaleLowerCase("tr-TR").includes(firstWord))
         .slice(0, 3)
     : [];

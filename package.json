@@ -11,7 +11,10 @@
     "format": "prettier --write \"**/*.{ts,tsx,md,json}\"",
     "typecheck": "tsc --noEmit",
     "postbuild": "next-sitemap",
+    "db:migrate": "tsx scripts/run-migrations.ts",
     "seed": "tsx scripts/seed-supabase.ts",
+    "db:setup": "npm run db:migrate && npm run seed",
+    "admin:create": "tsx scripts/create-admin.ts",
     "supabase:types": "echo 'supabase login && supabase gen types typescript --project-id <YOUR_PROJECT_ID> --schema public > lib/supabase/types.gen.ts'"
   },
   "dependencies": {
@@ -42,12 +45,14 @@
   "devDependencies": {
     "@tailwindcss/postcss": "^4.0.0",
     "@types/node": "^22.10.5",
+    "@types/pg": "^8.20.0",
     "@types/react": "19.0.7",
     "@types/react-dom": "19.0.3",
     "autoprefixer": "^10.4.20",
     "dotenv": "^17.4.2",
     "eslint": "^9.18.0",
     "eslint-config-next": "15.5.15",
+    "pg": "^8.20.0",
     "postcss": "^8.4.49",
     "prettier": "^3.4.2",
     "prettier-plugin-tailwindcss": "^0.6.9",

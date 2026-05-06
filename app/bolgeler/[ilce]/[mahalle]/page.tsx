@@ -5,9 +5,10 @@ import { DISTRICTS, BUSINESS, getPhoneLink, getWhatsAppLink, type DistrictSlug }
 import {
   getNeighborhoodBySlug,
   getNearbyNeighborhoods,
-  neighborhoods,
-} from "@/lib/data/neighborhoods";
-import { getServiceBySlug } from "@/lib/data/services";
+  getAllNeighborhoods,
+} from "@/lib/db/neighborhoods";
+import { getAllServices } from "@/lib/db/services";
+import { getApprovedTestimonials } from "@/lib/db/testimonials";
 import { buildMetadata, serviceLocationDescription } from "@/lib/seo";
 import { neighborhoodSchema, faqSchema } from "@/lib/schema";
 import { JsonLd } from "@/components/seo/JsonLd";
@@ -16,9 +17,9 @@ import { BreadcrumbNav } from "@/components/seo/BreadcrumbNav";
 import { CTABanner } from "@/components/sections/CTABanner";
 import { FAQAccordion } from "@/components/sections/FAQAccordion";
 import { TestimonialSlider } from "@/components/sections/TestimonialSlider";
-import { testimonials } from "@/lib/data/testimonials";
 
-export function generateStaticParams() {
+export async function generateStaticParams() {
+  const neighborhoods = await getAllNeighborhoods();
   return neighborhoods.map((n) => ({ ilce: n.district, mahalle: n.slug }));
 }
 
@@ -29,7 +30,7 @@ export async function generateMetadata({
 }) {
   const { ilce, mahalle } = await params;
   const district = DISTRICTS.find((d) => d.slug === ilce);
-  const neighborhood = getNeighborhoodBySlug(mahalle, district?.slug as DistrictSlug);
+  const neighborhood = await getNeighborhoodBySlug(mahalle, district?.slug as DistrictSlug);
   if (!district || !neighborhood) return { title: "Sayfa Bulunamadı" };
 
   return buildMetadata({
@@ -55,15 +56,19 @@ export default async function NeighborhoodPage({
 }) {
   const { ilce, mahalle } = await params;
   const district = DISTRICTS.find((d) => d.slug === ilce);
-  const neighborhood = getNeighborhoodBySlug(mahalle, district?.slug as DistrictSlug);
+  const neighborhood = await getNeighborhoodBySlug(mahalle, district?.slug as DistrictSlug);
   if (!district || !neighborhood) notFound();
 
   const path = `/bolgeler/${district.slug}/${neighborhood.slug}`;
+  const [services, nearby, allTestimonials] = await Promise.all([
+    getAllServices(),
+    getNearbyNeighborhoods(neighborhood.slug, 6),
+    getApprovedTestimonials(),
+  ]);
   const popularServices = neighborhood.popularServices
-    .map((slug) => getServiceBySlug(slug))
+    .map((slug) => services.find((s) => s.slug === slug))
     .filter((s): s is NonNullable<typeof s> => Boolean(s));
-  const nearby = getNearbyNeighborhoods(neighborhood.slug, 6);
-  const localTestimonials = testimonials
+  const localTestimonials = allTestimonials
     .filter(
       (t) =>
         t.district === district.slug &&
