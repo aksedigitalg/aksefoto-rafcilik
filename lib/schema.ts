@@ -37,7 +37,7 @@ function getOpeningHoursSpec() {
  * Ana isletme schema'si — her sayfada referans verilir.
  */
 export function localBusinessSchema() {
-  return {
+  const base: Record<string, unknown> = {
     "@context": "https://schema.org",
     "@type": ["LocalBusiness", "PhotographyBusiness"],
     "@id": `${BUSINESS.siteUrl}/#business`,
@@ -68,17 +68,25 @@ export function localBusinessSchema() {
     })),
     openingHoursSpecification: getOpeningHoursSpec(),
     sameAs: Object.values(BUSINESS.social).filter(Boolean),
-    aggregateRating: {
+    foundingDate: BUSINESS.founded,
+    slogan: BUSINESS.tagline,
+    description: BUSINESS.shortDescription,
+  };
+
+  // aggregateRating sadece dogrulanabilir gercek yorumlar varsa schema'ya
+  // eklenir. Google Rich Results politikasi: dogrulanamayan rating manuel
+  // ceza sebebi. GBP onayi + gercek yorumlar geldiginde stats'i guncelleyin.
+  if (BUSINESS.stats.googleReviewCount > 0 && BUSINESS.stats.googleRating > 0) {
+    base.aggregateRating = {
       "@type": "AggregateRating",
       ratingValue: BUSINESS.stats.googleRating.toString(),
       reviewCount: BUSINESS.stats.googleReviewCount.toString(),
       bestRating: "5",
       worstRating: "1",
-    },
-    foundingDate: BUSINESS.founded,
-    slogan: BUSINESS.tagline,
-    description: BUSINESS.shortDescription,
-  };
+    };
+  }
+
+  return base;
 }
 
 /**

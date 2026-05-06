@@ -83,6 +83,8 @@ export function buildMetadata({
       title: fullTitle,
       description,
       images: [ogImageUrl],
+      creator: "@aksefotograf",
+      site: "@aksefotograf",
     },
     other: {
       "geo.region": "TR-41",
@@ -105,6 +107,8 @@ export function serviceLocationDescription(
   location: string,
   extra?: string,
 ): string {
-  const base = `${location} bölgesinde profesyonel ${serviceName.toLowerCase()} hizmeti. ${BUSINESS.stats.yearsOfExperience}+ yıl deneyim, hızlı teslim, ücretsiz keşif görüşmesi.`;
+  // "1+ yil deneyim" gibi ifadeler genc studyo icin yaniltici (Google EEAT).
+  // Yerine somut + dogrulanabilir taahhutler kullan: modern ekipman, teslim suresi.
+  const base = `${location} bölgesinde profesyonel ${serviceName.toLowerCase()} hizmeti. Modern ekipman, ${BUSINESS.stats.deliveryDays} gün edit teslim, ücretsiz keşif görüşmesi.`;
   return extra ? `${base} ${extra}` : `${base} Hemen ara: ${BUSINESS.phoneDisplay}`;
 }

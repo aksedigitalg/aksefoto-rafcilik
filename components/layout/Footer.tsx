@@ -3,6 +3,8 @@ import {
   Instagram,
   Facebook,
   Youtube,
+  Twitter,
+  Linkedin,
   MapPin,
   Phone,
   Mail,
@@ -190,6 +192,52 @@ export function Footer() {
                     className="rounded-md p-2 text-muted-foreground hover:bg-accent hover:text-primary"
                   >
                     <Youtube className="h-5 w-5" />
+                  </a>
+                </li>
+              )}
+              {BUSINESS.social.tiktok && (
+                <li>
+                  <a
+                    href={BUSINESS.social.tiktok}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="TikTok"
+                    className="rounded-md p-2 text-muted-foreground hover:bg-accent hover:text-primary"
+                  >
+                    <svg
+                      viewBox="0 0 24 24"
+                      fill="currentColor"
+                      className="h-5 w-5"
+                      aria-hidden="true"
+                    >
+                      <path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64 2.93 2.93 0 0 1 .88.13V9.4a6.84 6.84 0 0 0-1-.05A6.33 6.33 0 0 0 5.8 20.1a6.34 6.34 0 0 0 10.86-4.43V8.15a8.16 8.16 0 0 0 4.77 1.52V6.21a4.85 4.85 0 0 1-1.84-.42z" />
+                    </svg>
+                  </a>
+                </li>
+              )}
+              {BUSINESS.social.twitter && (
+                <li>
+                  <a
+                    href={BUSINESS.social.twitter}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="X (Twitter)"
+                    className="rounded-md p-2 text-muted-foreground hover:bg-accent hover:text-primary"
+                  >
+                    <Twitter className="h-5 w-5" />
+                  </a>
+                </li>
+              )}
+              {BUSINESS.social.linkedin && (
+                <li>
+                  <a
+                    href={BUSINESS.social.linkedin}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="LinkedIn"
+                    className="rounded-md p-2 text-muted-foreground hover:bg-accent hover:text-primary"
+                  >
+                    <Linkedin className="h-5 w-5" />
                   </a>
                 </li>
               )}

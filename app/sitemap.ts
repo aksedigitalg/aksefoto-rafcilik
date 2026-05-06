@@ -3,6 +3,7 @@ import { BUSINESS, DISTRICTS } from "@/lib/constants";
 import { services } from "@/lib/data/services";
 import { neighborhoods } from "@/lib/data/neighborhoods";
 import { industrialZones } from "@/lib/data/industrial-zones";
+import { blogPosts, BLOG_CATEGORIES } from "@/lib/data/blog-posts";
 
 /**
  * Otomatik sitemap.xml uretici.
@@ -74,6 +75,22 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.8,
   }));
 
+  // Blog yazilari (her birinin gercek lastModified tarihi var)
+  const blogPostPaths: MetadataRoute.Sitemap = blogPosts.map((p) => ({
+    url: `${base}/blog/${p.slug}`,
+    lastModified: new Date(p.updatedAt ?? p.publishedAt),
+    changeFrequency: "monthly" as const,
+    priority: 0.7,
+  }));
+
+  // Blog kategori filtre sayfalari
+  const blogCategoryPaths: MetadataRoute.Sitemap = BLOG_CATEGORIES.map((cat) => ({
+    url: `${base}/blog/kategori/${encodeURIComponent(cat.toLocaleLowerCase("tr-TR"))}`,
+    lastModified: now,
+    changeFrequency: "weekly" as const,
+    priority: 0.5,
+  }));
+
   return [
     ...staticPaths,
     ...servicePaths,
@@ -81,5 +98,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...districtPaths,
     ...neighborhoodPaths,
     ...industrialZonePaths,
+    ...blogPostPaths,
+    ...blogCategoryPaths,
   ];
 }

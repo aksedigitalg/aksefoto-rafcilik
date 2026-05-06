@@ -30,9 +30,12 @@ const nextConfig: NextConfig = {
           { key: "X-Content-Type-Options", value: "nosniff" },
           { key: "X-Frame-Options", value: "SAMEORIGIN" },
           { key: "Referrer-Policy", value: "strict-origin-when-cross-origin" },
+          { key: "X-DNS-Prefetch-Control", value: "on" },
+          { key: "X-Permitted-Cross-Domain-Policies", value: "none" },
           {
             key: "Permissions-Policy",
-            value: "camera=(), microphone=(), geolocation=(self)",
+            value:
+              "camera=(), microphone=(), geolocation=(self), interest-cohort=(), payment=(), usb=()",
           },
           {
             key: "Strict-Transport-Security",
